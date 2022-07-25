@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 1100px) {
+  	.section-two .child {
+		flex:  1 0 24%;
+		white-space: nowrap;
+	}
+	.section-two .child.title {
+		flex:  1 0 80%;
+	}
+  	.p1 {
+  		padding: 1em 0 !important;
+  	}
+
+  	.no-mobile {
+  		display: none !important;
+	}
+
+	.mobile-full-div {
+		margin: 1em 0;
+		padding: 0;
+		width: 100%;
+	}
+	.mobile-reverse {
+		/* flex-direction: column-reverse; */
+	}
+
+  	.resume-card {
+  		font-size: 10px;
+  		margin: 1em !important;
+  	}
+  	.resume-card img {
+  		width: 24px;
+  		height: 24px;
+  	}
+  	.resume-card h3 {
+  		margin: 0.2em;
+  	}
+}
+
+@media only screen and (max-width: 600px) {
+  	.margined-container {
+  		width: 96vw;
+  	}
+  	.section-two .child {
+		flex:  1 0 40%;
+		white-space: nowrap;
+	}
+	
+}

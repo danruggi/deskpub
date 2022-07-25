@@ -1,0 +1,21 @@
+/*Condensed Fonts for calendar*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans:wght@100&family=New+Tegomin&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.color-white {
+	color:white;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tegomin {
+	font-family: 'New Tegomin';
+}

@@ -1,0 +1,217 @@
+:root {
+	/*Main Colors*/
+	--text-color: #222;
+}
+/*All main divs in bookingg page*/
+section > div {
+	background-color: #eee;
+	margin-bottom: 0.5em;
+	border-radius: 6px 6px 6px 6px;
+}
+/*Booking Header*/
+section:first-child {
+	border-radius: 0 0 6px 6px;
+	margin-top: 0.5em;
+}
+
+#booking_name {
+	font-family: "New Tegomin";
+	font-size: 30px;
+}
+
+.bigview {display: grid; grid-template-columns: auto auto; text-align: center; justify-content: center; column-gap: 0.3em; cursor: default;}
+.bigview .day {grid-row-start: 1; grid-row-end: 5; font-size: 2.3em; font-weight: bold; }
+.bigview .month {font-size: 1.2em; font-weight: bold; }
+.bigview .dow {font-size: 0.7em; font-style: italic; }
+
+.tileviewcontainer {padding: 0.4em 2em; border: 1px solid #ddd; transform: skewX(-30deg); background-color: #ddd; cursor: default;}
+
+.tileview {display: grid; grid-template-rows: auto auto; transform: skewX(+30deg); text-align: center; justify-content: center; row-gap: 0.3em; }
+.tileview .top {grid-column-start: 1; font-weight: bold; grid-column-end: 3; font-size: 1em; font-style: italic;}
+.tileview .bleft {}
+.tileview .bright { font-size: 1.4em; margin-left: .3em }
+
+
+.number {
+	font-size: 1.2em;
+	/*color: #001c5d;*/
+	color: var(--header-back);
+}
+.det-col > * {
+	margin: 1em;
+	font-family: "Roboto";
+}
+
+.det-col:not(:last-child) {
+	border-right: 1px solid #dadada;
+}
+
+div#details span{
+	font-size: .8em;
+}
+.delete-booking  {
+	position: absolute; 
+	bottom: 0; 
+	left: 50%; 
+	transform: translateX(-50%);
+}
+
+.det-col button.old_style {
+	width: 10em;
+	font-size: .7em;
+}
+
+/*Extending styled class*/
+.det-col button.styled {
+	width: 6em;
+	line-height: 1.3em;
+	color: white;
+}
+
+.det-col .highlighted:hover {
+	background-color: #f4f4f4; 
+}
+
+div.ck-guest-name {
+	border: 1px dashed #888;
+	border-radius: 5px;
+	background-color: #aaa;
+	line-height: 1em;
+	color: #bbb;
+	padding: 0.1em 0;
+	cursor: pointer;
+	user-select: none;
+	height: 100%;
+}
+div.ck-guest-name.selected {
+	color: #666;
+	background-color: #eee;
+}
+
+div.ck-guest-name span {
+	word-break: break-word;
+}
+/*
+ul.arrow {
+	margin: 0;
+	position: relative;
+	list-style: none;
+	padding-left: 1.3em;
+}
+
+ul.arrow li::before {
+	content: '▶';
+	position: absolute;
+	left: 0;
+	transform: translate(1em, 0.6em);
+   font-size: 0.5em;
+}
+*/
+
+.hidden-details {
+	padding: 0.6em;
+	background-color: #dddddd;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	/*color: #adadad;*/
+}
+
+ul.small {
+	font-size: 0.8em;
+}
+
+div.small, span.small {
+	font-size: 0.8em;
+}
+
+
+
+/*File Upload*/
+/*#previews  img {  
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+}*/
+#previews > div {
+  box-sizing: border-box;
+  height: 240px;
+  width: 240px;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+}
+#previews > div > progress {
+  width: 80%;
+}
+#previews > div > div.image {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/**/
+div.image > .controls {
+	visibility: hidden;
+	height: 30px;
+	width: 100%;
+	background-color: #000000ba;
+	position: absolute;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+div.image:hover > .controls {
+	visibility: visible;
+}
+
+
+.payment {
+	border: 1px solid #ccc;
+	position: relative;
+}
+.payment.selected {
+	background-color: #f4f4f4;
+}
+
+.payment .header {
+	font-size: 0.8em;
+
+}
+.payment .arrow-symbol {
+	position: absolute;
+	right: 0;
+	font-size: 0.7em;
+	top: 10px;
+	color: coral;
+}
+.payment .arrow-symbol.down {
+	transform: rotate(90deg);
+}
+.payment .arrow-symbol.left {
+	transform: rotate(180deg);
+}
+.payment .hidden-details {
+	padding: 0.6em 1.5em;
+	background-color: transparent;
+	border: none;
+}
+
+.big-question-mark {
+	width: 30px;
+	height: 30px;
+	font-family: 'New Tegomin';
+	font-size: 24px;
+	color: white;
+	background: grey;
+	border-radius: 50px;
+	font-weight: bold;
+}
+
+.textarea-note {
+	height: 5em; 
+	color: #666; 
+	min-width: 300px
+}

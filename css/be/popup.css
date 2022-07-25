@@ -1,0 +1,93 @@
+	/*Popout Booking */
+ 	.dark-back {position: fixed; width: 100%; height: 100%; background-color: #000000cc; top: 0; left:0;  z-index: 10; user-select: none;}
+ 	.popup {
+ 		min-width: 30em; 
+ 		height: auto; 
+ 		/*max-height: 90vh;*/
+ 		border-radius: 2em; 
+ 		background-color: var(--popout-back); border: 5px solid var(--popout-border); }
+ 	.popup_inner {margin: 1em; }
+ 
+ 	/*Popup Bottom*/
+ 	.popup .bottom-container {
+ 		height: 100%; 
+ 		max-height: 90vh;
+ 		overflow-y: auto; 
+ 		background-color: var(--popout-inner-back); 
+ 		border: 1px solid var(--lbrown); border-radius: 20px; 
+ 		border-collapse: collapse; 
+ 		transform: translateY(-1px);
+ 	}
+ 	
+ 	.popup .bottom-container::-webkit-scrollbar {
+		width: 15px;
+	}
+	.popup .bottom-container::-webkit-scrollbar-track {
+	  	background: #ffffff00;
+		border-radius: 10px;
+		/* height: 90%; */
+		margin: 20px;
+	}
+
+	/* Handle */
+	.popup .bottom-container::-webkit-scrollbar-thumb {
+	  	background: #9a3d1b;
+    	border-radius: 71px;
+	}
+
+	/* Handle on hover */
+	.popup .bottom-container::-webkit-scrollbar-thumb:hover {
+	  	background: #555;
+	}
+ 	.popup .bottom-infos {min-height: 12em; padding: .5em 2em;}
+ 	.popup label {
+ 		transition: all 0.1s ease; 
+ 		font-size: 0.9em; 
+	}
+ 	
+ 	.popup label.small {
+ 		font-size: 0.8em;
+ 	}
+
+	.popup label.centered {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 15ch;
+		padding: 5px;
+	}
+
+ 	/*Error class*/
+ 	.popup label.error {
+ 		color: red; 
+ 		font-size: 1em; 
+ 	}
+
+ 	/*Standard Messages popups*/
+ 	.popup.error {
+ 		border-color: red;
+ 		color: var(--dred);
+ 	}
+
+ 	.popup.ok {
+ 		border-color: var(--dgreen);
+ 		background-color: var(--lgreen);
+ 	}
+ 	.popup.ok .bottom-container {
+ 		border-color: var(--dgreen);
+ 		background-color: var(--lgray);
+ 	}
+
+	.popup .close-icon {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		cursor: pointer;
+	}
+
+	.popup .popup-card {
+		border-radius: 10px; 
+		border: 1px solid #cfcfcf; 
+		background-color: #fafafa;
+		padding: 1rem;
+	}

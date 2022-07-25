@@ -1,0 +1,196 @@
+
+/* HELP MESSAGES CONTAINER */
+#help_messages_container {
+	background-color: #fafafa;
+	position: absolute;
+	right: 20px;
+	/* top: 40px; */
+	bottom: 23px;
+	width: 350px;
+	height: auto;
+	z-index: 10;
+	border-radius: 10px;
+	border: 1px solid #ccc;	
+	transition: 0.3s all;
+	overflow: hidden;
+}
+#help_messages_container.mobile {
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: unset;
+	transform: translate(-50%, -50%);
+}
+
+#help_messages_container .title-container {
+	background-color: #eee;
+	height: 60px;
+}
+
+#help_messages_container .title-container .online-status{
+	background-color: grey;
+	height: 5px;
+	width: 5px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px #000;
+}
+#help_messages_container .title-container .online-status.online {
+	background-color: lime;
+	box-shadow: 0px 0px 5px green;
+}
+
+#help_messages_container .title-container .online-status.idle {
+	background-color: yellow;
+	box-shadow: 0px 0px 5px #818300;
+}
+
+#help_messages_container .title-container .online-status.offline {
+	background-color: #db0000;
+	box-shadow: 0px 0px 5px #b30000;
+}
+
+#help_messages_container .messages-container {
+	height: calc(100% - 60px - 60px);	
+	overflow-y: auto;
+}
+#help_messages_container .messages-container.disabled {
+	background-color: #999;
+}	
+#help_messages_container .messages-container h3{
+	color: #ffb733;
+	overflow-wrap: anywhere;
+}
+
+#help_messages_container .messages-container ul.live-update {
+	background-color: #fafafa;
+}
+#help_messages_container .messages-container ul.live-update li{
+	background-color: #fafafa;
+	max-width: 60%;
+	width: fit-content;
+	font-size: 16px;
+	background-color: #ccc;
+   border-radius: 10px;
+   /* text-align: center; */
+   margin: 3px;
+}
+#help_messages_container .messages-container ul.live-update li:hover{
+	background-color: #ddd;
+	cursor: default;
+}
+#help_messages_container .messages-container ul.live-update li.mine {
+	margin-right: 3px;
+	margin-left: auto;
+	text-align: right;
+	justify-content: flex-end;
+	background-color: #c5ffc5;
+
+}
+#help_messages_container .messages-container ul.live-update li.mine .message span  {
+	margin-right: 10px;
+	/* margin-left: auto; */
+}
+#help_messages_container .messages-container ul.live-update li.mine:after{
+	content: "";
+	background-size: 11px 11px;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(100%) contrast(86%);
+	height: 0.6em;
+	width: 0.6em;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+#help_messages_container .messages-container ul.live-update li.mine.sent:after {
+	background-image: url(/assets/icons/msg-sent.svg);
+}
+#help_messages_container .messages-container ul.live-update li.mine.received:after {
+	background-image: url(/assets/icons/msg-received.svg);
+}
+#help_messages_container .messages-container ul.live-update li.mine.read:after {
+	background-image: url(/assets/icons/msg-received.svg);
+	filter: invert(15%) sepia(30%) saturate(6261%) hue-rotate(229deg) brightness(114%) contrast(106%); 
+}
+#help_messages_container .messages-container ul.live-update li.other {
+	margin-left: 3px;
+	text-align: left;
+}
+#help_messages_container .messages-container ul.live-update li.date-info {
+	background-color: transparent;
+	font-size: 0.6em;
+	/* margin: 0 auto; */
+	font-style: italic;
+	color: #aaa;
+}
+
+#help_messages_container .messages-container ul.live-update li.session-info {
+	margin: 0 auto;
+	/* height: 2em; */
+	font-size: 0.6em;
+	padding: 20px;
+	color: #aaa;
+}
+
+#help_messages_container .send-messages-container {
+	background-color: #eee;
+	height: 100px;
+}
+#help_messages_container .send-messages-container > div {
+	margin: 0 10px 0 5px;
+}
+#help_messages_container .send-messages-container  textarea{
+	font-size: 16px;
+	line-height: 16px;	
+	text-align: left;
+	resize: none;
+	color: #666;
+	padding-left: 5px;
+	border-color: #ccc;
+	white-space: pre-wrap;
+	/* margin: 0 5px; */
+}
+#help_messages_container .send-messages-container  textarea:disabled{
+	background-color: #999;
+}
+
+#help_messages_container .send-messages-container  button{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #ddd;
+	border-color: #ccc;
+	border-width: 1px;
+	border-inline: none;
+	border-style: none;
+}
+#help_messages_container .send-messages-container  button:disabled{
+	background-color: #999;
+}
+#help_messages_container .send-messages-container  button:disabled img{
+	filter: invert(0.6);
+}
+#help_messages_container .send-messages-container  button:hover { 
+	background-color: #ddd;
+	box-shadow: 0 0 8px #00000055;
+}
+#help_messages_container .send-messages-container  button img {
+	transform: translateX(2px);
+	/* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(89%) contrast(119%); */
+}
+#messages_container .notif-icon {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	left: 10px;
+	bottom: 3px;
+	border-radius: 15px;
+	font-size: 9px;
+	line-height: 14px;
+	text-align: center;
+}

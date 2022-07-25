@@ -1,0 +1,96 @@
+.room-card-left {
+	width: 20%;
+}
+.room-card-center {
+	width: 50%;
+	max-width: 200px; 
+}
+.room-card-center.dorm {
+	max-width: unset;
+}
+
+.room-clean-buttons {width: 50%;}
+.room-clean-button {
+	line-height: 2rem;
+	color: white;
+	position: relative;
+}
+
+.room-clean-button:not(.disabled) {cursor: pointer;}
+.room-clean-button.begin {background-color: #2dad2d;}
+.room-clean-button.begin:hover {background-color: #40c940; }
+.room-clean-button.finish {background-color: #dbc892; }
+.room-clean-button.finish:hover {background-color: #edd48c; }
+
+.room-clean-button.finish.cleaning {background-color: coral; }
+
+
+.bed-clean-button {position: relative; }
+.room-clean-button.begin:not(.disabled):after, .bed-clean-button:after {
+	content: " ";
+	width: 20px;
+	height: 20px;
+	background-image: url('/assets/icons/broom.svg');
+	background-size: contain;
+	filter: brightness(0) invert(1);
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.bed-clean-button:after {
+	width: 17px;
+	height: 17px;
+	right: 3px;
+}
+.room-clean-button.disabled {
+	color: #ddd;
+	background-color: #fff;
+}
+
+.show-all-bookings-li {
+	grid-template-columns: 30px auto 70px;
+	column-gap: .3rem;
+}
+
+.bed-clean-button:not(.disabled) {cursor: pointer;}
+.bed-clean-button {
+	line-height: 1.8rem;
+	height: 100%;
+	width: 70px;
+	text-align: center;
+	background-color: #2dad2d;
+	color: white;
+	border-radius: .2rem;
+}
+.bed-clean-button:hover {
+	background-color: #40c940;
+}
+.bed-clean-button.disabled {
+	background-color: #eee;
+	color: #ccc;
+}
+
+.room-card-center.info-messages {
+	font-size: .8rem;
+	color: #aaa;
+}
+.room-card-center .checkout-info {
+	font-weight: bold;
+}
+.room-card-center .cleaning-info {
+	color: var(--c-checkedin);
+}
+
+.checkout-info.cst-9 {color: red; }
+.checkout-info.cst-8 {color: coral; }
+.checkout-info.cst-tomorrow {color: #ccc; }
+
+
+.room-card-left.cst-8 {background-color: purple;}
+.room-card-left.cst-tomorrow {background-color: #ff75db;}
+
+/*.room-card-left.cst-8 img {filter: invert(36%) sepia(0%) saturate(1389%) hue-rotate(142deg) brightness(111%) contrast(94%);}*/
+
+.room-card-left.cl-0 {background-color: coral;}
+.room-card-left.cl-1 {background-color: var(--b-checkedin);}

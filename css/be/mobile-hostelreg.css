@@ -1,0 +1,44 @@
+.no-mobile {
+	display: none !important;
+}
+
+.mobile-wrap {
+	display: flex !important;
+	flex-wrap: wrap ;
+	margin: 0 auto;
+}
+
+.mobile-wrap > * {
+	margin: 5px auto;
+}
+
+.property-selector a img, .type-selector-bnb a img{
+	width: 64px;
+	height: 64px;
+}
+
+.type-selector-bnb h1 {
+	font-size: 1.3em;
+	margin: 0.4em;
+	margin-bottom: 1em;
+}
+
+.hotel-infos label {
+	width: 90%;
+	font-size: 0.8em;
+}
+
+.hotel-infos input, .hotel-infos select, .user-infos input, .new-password input {
+	background-color: #eee;
+	font-size: 1em;
+	line-height: 2em;
+	max-width: 60vw;
+}
+
+.password-title > * {
+	margin: 0 2em;
+}
+
+.box-inner {
+	padding: 1em;
+}

@@ -1,0 +1,108 @@
+section.rooms-header {
+	width: 100%;
+	background-color: #eee;
+}
+section.rooms-header .rooms-header-container{
+	max-width: 400px;
+}
+
+.rooms-header-container a:hover {
+	background-color: #e3e3e3;
+}
+
+a.disabled {
+	pointer-events: none;
+	cursor: not-allowed;
+}
+
+.rooms-card-container {
+	width: 80%;
+}
+
+.room-card {
+	/* height: 80px; */
+	height: auto;
+	width: 370px;
+}
+
+
+.room-card-left {
+	width: 80px;
+	min-width: 80px;
+	/* height: 100%; */
+	background-color: #616161;
+	color: white;
+}
+
+.room-card-center {
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;
+	overflow: hidden;
+	background-color: white;
+	color: #666;
+}
+
+.room-card-name {
+	width: 100%;
+	/* max-width: 100px; */
+	/* min-width: 100px; */
+	overflow: hidden;
+	background-color: white;
+	color: #666;
+}
+
+
+.bigview.date-selector .l {font-size: 3em;}
+
+.room-empty {border-color: #119f00; }
+ .room-full {border-color: brown; }
+ .room-almost-full {border-color: #ff8d00; }
+.room-half-full {border-color: blue; }
+
+.room-empty .room-card-left {background-color: #19901c; }
+.room-full .room-card-left {background-color: #d63c1e; }
+.room-almost-full .room-card-left {background-color: #b1621e; }
+.room-half-full .room-card-left {background-color: #000248; }
+
+
+
+.bigview {display: grid; grid-template-columns: auto auto; text-align: center; justify-content: center; column-gap: 0.3em; cursor: default; margin: 0 1em;}
+.bigview .day {grid-row-start: 1; grid-row-end: 5; font-size: 2.3em; font-weight: bold; }
+.bigview .month {font-size: 1.2em; font-weight: bold; }
+.bigview .dow {font-size: 0.7em; font-style: italic; }
+
+button.bs.less-plus {
+	width: 25px; 
+	height: 25px
+}
+
+.show-all-bookings {
+	width: 370px;
+}
+
+.book-dets > .m0 {
+	margin-top: 10px;
+}
+
+.show-all-bookings-li {
+	display: grid;
+	grid-template-columns: 30px auto;
+	text-align: center;
+	padding: 2px 1em !important;
+}
+
+.show-all-bookings-li .dorm-side {
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+	text-align: center;
+	/* margin: 1px; */
+	border-radius: 3px;
+	padding: 1px;
+	height: 100%;
+
+}
+
+.show-all-bookings-li .dorm-side > *, .show-all-bookings-li .bed-number, .show-all-bookings-li .dorm-side h6 {
+	margin: auto;
+}

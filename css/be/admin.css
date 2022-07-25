@@ -1,0 +1,92 @@
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover,  *::-webkit-scrollbar-thumb:hover {
+  	background: #555;
+}
+
+#message_session_list {
+	border-radius: 5px;
+	align-items: baseline;
+   position: relative;
+}
+#message_session_list.active {
+	background-color: #ffffff33;
+}
+
+#message_session_list  {
+	width: 350px;
+	height: auto;
+	max-height: 300px;
+	min-height: 100px;
+	overflow-y: auto;
+	padding: 3px;
+	background-color: #ccc;
+	border-radius: 5px;
+	z-index: 30;
+}
+
+#message_session_list .title {
+	margin: 2px;
+}
+#message_session_list .message {
+	font-size: 11px;
+	white-space: break-spaces;
+}
+
+#message_session_list .user, #message_session_list .time {
+	margin: 0px;
+	font-size: 9px;
+}
+/* Read */
+#message_session_list ul.live-update li img{
+	filter: brightness(0) invert(0.7); 
+}
+#message_session_list ul.live-update li{
+	color: #666;
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+#message_session_list ul.live-update li:hover{
+	background-color: #eee;
+}
+#message_session_list ul.live-update li.current {
+	background-color: #fffca4;
+	color: #666;
+}
+/* To Read */
+#message_session_list ul.live-update li.state-9:not(.current) {
+	background-color: #ddd;
+	color: #666;
+}
+#message_session_list ul.live-update li.state-9:hover {
+	background-color: #e3e3e3;
+}
+#message_session_list ul.live-update li.state-9 img{
+	filter: brightness(0) invert(0.4); 
+}
+#message_session_list ul.live-update li.state-9:after{
+	content: " ";
+	width: 6px;
+	height: 6px;
+	background-color: blue;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#message_session_list ul.live-update li.state-3.me-0:after {
+	content: " ";
+	width: 6px;
+	height: 6px;
+	background-color: yellow;
+	border-radius: 10px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#message_session_list ul.live-update li.state-0 {
+	color: #cfcfcf;
+}

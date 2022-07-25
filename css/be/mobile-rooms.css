@@ -1,0 +1,38 @@
+	.rooms-card-container {
+		width: 100vw;
+		padding: 0;
+		border: none;
+	}
+
+	.room-card, .show-all-bookings {
+		margin: 4px !important;
+		width: 95vw;
+	}
+
+	/* .room-card-container {width: 100%;} */
+
+	.flex-child {
+		/* display: flex; */
+		flex:  1 0 22%;
+		margin: 0 5px;
+		/* white-space: nowrap; */
+	}
+
+	.popup {
+		width: 96vw;
+	}
+
+	.sded-date {
+		width: 45%;
+		font-size: 0.7em;
+	}
+
+	.book-dets {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	button.bs.less-plus {
+	width: 40px; 
+	height: 40px
+}

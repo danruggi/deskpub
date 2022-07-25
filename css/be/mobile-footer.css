@@ -1,0 +1,11 @@
+footer {
+	height: inherit;
+	max-height: inherit;
+	min-height: 23px;
+}
+
+footer .tile {
+	height: auto;
+	border-right: none;
+}
+

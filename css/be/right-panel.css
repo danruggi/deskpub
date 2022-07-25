@@ -1,0 +1,24 @@
+.right-panel {
+	height: 0;
+	/* min-height: 100px; */
+}
+.right-panel::-webkit-scrollbar, .right-panel *::-webkit-scrollbar {
+	width: 5px;
+}
+.right-panel::-webkit-scrollbar-track, .right-panel *::-webkit-scrollbar-track {
+  	background: #ffffff00;
+	border-radius: 10px;
+	/* height: 90%; */
+	margin: 20px;
+	box-shadow: 0px 0px 8px;
+}
+/* Handle */
+.right-panel::-webkit-scrollbar-thumb , .right-panel *::-webkit-scrollbar-thumb {
+  	background: #9a3d1b;
+ 	border-radius: 71px;
+}
+
+/* Handle on hover */
+.right-panel::-webkit-scrollbar-thumb:hover, .right-panel *::-webkit-scrollbar-thumb:hover {
+  	background: #555;
+}

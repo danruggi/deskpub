@@ -1,0 +1,8 @@
+table#maincalendar col.col-1 {
+	width: 55px;
+}
+
+section#calendar {
+	height: calc(100vh - 100px);
+	min-height: 88vh;
+}

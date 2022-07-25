@@ -1,0 +1,32 @@
+.filter-green {filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); }
+.filter-dgreen {filter: invert(43%) sepia(151%) saturate(1452%) hue-rotate(66deg) brightness(95%) contrast(154%) }
+.filter-gray {filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(100%) contrast(86%) }
+.filter-gray:hover {filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(118%) contrast(86%) }
+.filter-yellow {filter: invert(62%) sepia(74%) saturate(1300%) hue-rotate(-349deg) brightness(118%) contrast(86%) }
+.filter-deskydoo {filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg) brightness(102%) contrast(97%); }
+.filter-brown {filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg ) brightness(60%) contrast(97%); }
+.filter-dgray {filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg ) brightness(41%) contrast(14%); }
+.filter-azul {filter: invert(53%) sepia(33%) saturate(2913%) hue-rotate(130deg) brightness(97%) contrast(101%); }
+.filter-white {filter: invert(1) brightness(100); }
+.filter-fb {filter: invert(36%) sepia(97%) saturate(335%) hue-rotate(179deg) brightness(91%) contrast(94%); }
+.filter-g {filter: invert(41%) sepia(22%) saturate(6488%) hue-rotate(339deg) brightness(83%) contrast(89%); }
+.filter-brown { filter: invert(12%) sepia(36%) saturate(7350%) hue-rotate(23deg) brightness(94%) contrast(103%); }
+.filter-rose {	filter: invert(27%) sepia(55%) saturate(3833%) hue-rotate(313deg) brightness(95%) contrast(95%); }
+.filter-real-red {filter: invert(12%) sepia(58%) saturate(7499%) hue-rotate(7deg) brightness(83%) contrast(119%);}
+.filter-red {filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%); }
+
+.fb-back {
+	background-color: #546fab;
+}
+
+.g-back {
+	background-color: #ce5341;
+}
+.w-back {
+ 	background-color: white;
+}
+
+.twhite {color: #fff;}
+.tlgray {color: #aaa;}
+
+.error {color: red;}

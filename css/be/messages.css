@@ -1,0 +1,32 @@
+/*Message box*/
+#message_box {
+	position: fixed;
+	margin: 0;
+	top: 45px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 90%;
+	/* height: 6em; */
+	border: 4px solid white;
+	border-radius: 20px;
+	z-index: 15;
+	opacity: 0;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+#message_box.red {
+	background: #ff0000ee;
+}
+#message_box.green {
+	background-color: #0080009e;
+}
+
+#message_box.wide {
+	width: 90vw;
+	height: 3em;
+}
+

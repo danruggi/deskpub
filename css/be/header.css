@@ -1,0 +1,172 @@
+
+header {
+	height: 40px;
+	max-height: 40px;
+	min-height: 40px;
+	width: 100%;
+	background-color: var(--header-back);
+	user-select: none;
+}
+
+header .logo a{
+	font-family: 'Comfortaa';
+	color: #f7be3e;
+	font-weight: bold;
+	font-size: 1em;
+	text-shadow:   0 0 2px #c53030;
+}
+header a.header-menu-button {
+	height: 100%;
+	color: white;
+	/* color: var(--text-color); */
+	/* background-color: #ccc; */
+	margin: 1px;
+	font-size: 0.7em;
+	border-radius: 3px;
+	text-transform: uppercase;
+	padding: 0 0.5em;
+	/*font-weight: bold;*/
+	text-align: center;
+}
+
+header a.header-menu-button > img {
+	filter: invert(65%);
+	/* filter: invert(36%) sepia(0%) saturate(1389%) hue-rotate(142deg) brightness(111%) contrast(94%);  */
+}
+
+header a.header-menu-button:hover {
+	/*box-shadow: 0px 0px 2px white;*/
+	box-shadow: inset 3px -3px 30px #ffb719, 0px 0px 10px #ffb71999;
+	background-color: #ffb719dd;	
+	border-color: transparent;
+	color: #711e00;
+}
+
+header a.header-menu-button:hover > img{
+	filter: invert(10%) sepia(56%) saturate(6762%) hue-rotate(32deg) brightness(97%) contrast(102%);
+}
+
+header a.header-menu-button.active {
+	color: white;
+	font-weight: bold;
+	background-color: #444;
+}
+
+header a.header-menu-button.active > img{
+	filter: invert(100%);
+}
+
+header .tile {
+	margin: 0 auto;
+	padding: 0 1em;
+	height: 100%;
+}
+header .tile p {
+	margin: 0;
+	font-size: 0.7em;
+}
+
+header .top-left .tile {
+	border-right: 1px solid var(--head-separator);
+}
+header .top-right .tile {
+	border-left: 1px solid var(--head-separator);
+}
+
+header .deskycal input {
+	background-size: 0;
+	height: 25px;
+	padding: 0;
+	width: 16ch;
+}
+header .tile * {
+	text-align: center;
+	/*height: 100%;*/
+}
+
+header #config_tile {
+	cursor: pointer;
+}
+
+header #config_tile img {
+	filter: invert(36%) sepia(0%) saturate(1389%) hue-rotate(142deg) brightness(111%) contrast(94%); 
+}
+
+header #config_tile:hover img {
+	filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg) brightness(102%) contrast(97%);
+	/*filter: invert(10%) sepia(56%) saturate(6762%) hue-rotate(32deg) brightness(97%) contrast(102%);*/
+}
+
+.date-selector input::selection{ 
+	background-color:transparent 
+}
+
+
+
+.tile.sel .arrow {
+	font-size: 2em;
+}
+.tile.sel .arrow:hover {
+	color: coral;
+	cursor: pointer;
+}
+
+header .check-numbers {
+	font-family: "Josefin Sans";
+	font-size: 16px;
+	line-height: 25px;
+	min-width: 30px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+header .hint-father .hint {
+	top: 22px;
+	left: -10px;
+	padding: 10px;
+}
+
+header ul.checklist.inout {
+	padding: 0.5em 1em;
+	background-color: #f4f4f4;
+	position: relative;
+	border-radius: 8px;
+	height: -webkit-fill-available;
+}
+header ul.checklist.inout li {
+	grid-template-columns: 80% 20%;
+	margin-right: 2em;
+}
+header ul.checklist.inout li:not(.header):hover *{
+	color: #100f83 !important;
+}
+header ul.checklist.inout li.error * {
+	color: coral;
+}
+header ul.checklist.inout li.azul * {
+	color: #23c9c1;
+}
+header ul.checklist.inout li.azul::before {
+	filter: invert(60%) sepia(14%) saturate(1925%) hue-rotate(128deg) brightness(105%) contrast(97%);
+}
+ul.checklist li:not(.header)::before {
+	left: 6px;
+}
+
+header #live_update_icon .notif-num {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: red;
+	width: 14px;
+	height: 14px;
+	border-radius: 10px;
+	text-align: center;
+}
+header #live_update_icon .notif-num span{
+   transform: translate(-1px, 0px);
+}

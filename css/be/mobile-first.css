@@ -1,0 +1,48 @@
+header {
+	height: 60px;
+	max-height: 60px;
+	min-height: 60px;
+	width: 100vw;
+	background-color: var(--header-back);
+	user-select: none;
+	overflow: hidden;
+}  	
+
+/* header .no-mobile {
+	display: none !important;
+} */
+
+header .grid-container.center-container {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header .top-center {
+	margin: 0 auto;
+}
+
+section .grid-container:not(.mobile-keep):not(.bitso-cal-container):not(.hidden) {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 0;
+}
+
+.popup {
+	width: 90vw;
+	min-width: auto;
+	max-width: 90vw;
+}
+
+.wrap-mobile {
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.disable-dbl-tap-zoom {
+	touch-action: manipulation;
+}
+
+.no-mobile {
+	display: none !important;
+}
+

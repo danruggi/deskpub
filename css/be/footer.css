@@ -1,0 +1,19 @@
+footer .tile {
+	height: 100%;
+	border-right: 1px solid #444;
+	font-size: 0.75em;
+	overflow: hidden;
+	white-space: nowrap;
+	color: aliceblue;
+}
+
+.tile .legend-color {
+	width: 13px;
+	height: 13px;
+	border-radius: 10px;
+	margin: 0px 0.3em 0 0.5em;
+}
+
+.tile .legend-text {
+	margin-right: 0.5em;
+}

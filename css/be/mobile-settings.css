@@ -1,0 +1,82 @@
+
+body {
+	font-size: 10px;
+}
+.left-bar {
+	width: 30px;
+}
+.left-tile-text {
+	display: none;
+}
+
+.right-side .sub-top-bar {
+	flex-wrap: wrap;
+	height: auto;
+}
+.right-side .sub-top-bar > * {
+	margin: 2px;
+	padding: 8px;
+	color: #fff;
+	border-radius: 2px;
+}
+.right-side .config-tile.active {
+	background-color: green;
+}
+.right-side {
+	position: relative;
+}
+.right-side .right-container {
+	top: 100px;
+	left: 0;
+}
+
+.section > .grid-container.grid-12col, .section.grid-container.grid-12col {
+	grid-template-columns: 1fr;
+}
+
+.section-left {
+	display: none !important;
+}
+
+.stretched-container {
+	top: 63px;
+}
+
+.mobile-none {
+	display: none !important;
+}
+.grid-container.mobile-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* .popup form .grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2px auto;
+}
+ */
+.popup form .grid-container, #settings_property_rooms form .grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2px auto;
+}
+
+.popup form .grid-container > *, #settings_property_rooms form .grid-container > * {
+	margin: 5px 20px 0 auto;
+}
+
+#settings_property_rooms form {
+	background-color: #eee;
+	padding: 5px;
+}
+
+#settings_property_rooms form .show-hint {
+	margin: 5px;
+}
+
+#settings_property_rooms form .hint {
+	left: 0;
+	max-width: 80vw;
+}

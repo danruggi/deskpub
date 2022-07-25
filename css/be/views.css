@@ -1,0 +1,5 @@
+/*Big Dates CSS*/
+.bigview {display: grid; grid-template-columns: 1fr auto; text-align: center; justify-content: center; column-gap: 1em; }
+.bigview .l {grid-row-start: 1; grid-row-end: 3; font-size: 2em; font-weight: bold; }
+.bigview .rt {font-size: 1em; font-weight: bold; }
+.bigview .rb {font-size: 0.9em; font-style: italic; }

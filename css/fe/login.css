@@ -1,0 +1,86 @@
+html, body {
+	height: 100%;
+	background-color: #eee;
+}
+
+.full-container {
+	height: calc(100vh - 112px);
+}
+section {
+	font-family: "Open Sans";
+	height: 100%;
+}
+
+form label {
+	/*font-family: "Comfortaa";*/
+}
+form .smallest  {
+	font-size: .8rem;
+}
+
+form a:hover {
+	color: coral;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
+	/* animation: ;  */
+}
+
+#register >div {
+	margin: 1em 0 3em;
+}
+#register .column {
+	height: 100%;
+}
+
+#register h2, #register h5, #register p {
+	margin: 0;
+}
+
+.box {
+	text-align: center;
+	height: 100%;
+	background-color: #ddd;
+	border: 1px solid #aaa;
+	border-radius: 1em;
+}
+.box.sandy {
+	background-color: #e4cf9a;
+}
+.box.yellow {
+	background-color: #fdff97;
+}
+.box.green {
+	background-color:  #8cf58b;
+}
+.inner-box {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+.social-login {
+	width: auto;
+
+}
+.social-login > div {
+	height: auto;
+	width: 60%;
+	align-items: center;
+	color: #333;
+	background-color: #ffffff44;
+	border: 2px solid #888;
+	border-radius: 20px;
+	margin: 2px auto;
+	padding: 2px;
+	text-align: center;
+	cursor: pointer;
+}
+.social-login > div > span {
+	font-size: 0.6em;
+	margin: 0 4px;	
+}
+
+.social-login > div:hover {
+	background-color: #ffffffaa;
+}

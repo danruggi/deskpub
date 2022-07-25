@@ -1,0 +1,249 @@
+/* Mobile */
+body {
+	background-color: white; 
+	/* margin-top: 80px; */
+}
+
+/* PageLoader/ */
+.page-wrapper-loader {
+	position: fixed; 
+	transition: opacity .3s;
+	width:100vw; 
+	height:100vh; 
+	z-index:99; 
+	background-color: white; 
+}
+
+.page-wrapper-loader h1 {
+	font-size: 3rem;
+}
+
+.page-wrapper-loader img {
+	width: 4rem; height: 4rem;
+}
+
+/* Sections Separartor */
+.sections-divider {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	display: flex;
+}
+.sections-divider svg { width: 100%; height: 100%}
+.sections-divider svg.tiny {display: none;}
+.sections-divider.bottom {bottom: 0; top: auto}
+.sections-divider.top {top: 0; }
+
+/* https://stackoverflow.com/questions/72643350/glitch-in-rendering/72645834#72645834 */
+.sections-divider.complete {margin: -1px;} 
+
+
+
+.start-free-form .form-wrapper {
+	flex-wrap: wrap;
+}
+.start-free-form .start-free-form-grid{
+	display: flex;	
+	flex-wrap: wrap;
+	row-gap: .2rem;
+}
+
+.start-free-form input {
+	height: 3rem;
+	line-height: 100%;
+	border-radius: 2rem;
+	padding-left: 2rem;
+	color: #666;
+	background-color: #ededed;
+	border: 1px solid #919191;
+	width: 100%;
+	text-align: center;
+	font-size: .85rem;
+	font-family: "Comfortaa"
+}
+.start-free-form input:focus, .start-free-form input:hover  {
+	border-color: #bc8d00;
+	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #000;
+	outline: 0;
+	background-color: #fff;
+
+}
+.start-free-form input.error {
+	background-color: #fff3a8;
+	font-size: 1.1em;
+	border-color: #aab123;
+}
+
+.start-free-form button {
+	background-color: #ffdd8c;
+	color: #512b00;
+	border-color: #e97900;
+	cursor: pointer;
+	border-width: 1px;
+	border-radius: 2rem;
+	font-size: 1rem;
+	height: 3rem;
+	margin-top: .4rem;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.start-free-form button:hover{
+	background-color: #ff9028;
+	color: white;
+	border-color: #888;
+	border: 1px solid #8b1700;
+	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #810000;
+
+}
+.start-free-wrapper .subbuttons {
+	margin-top: 0.4rem;
+	font-size: 1.4rem;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.start-free-wrapper .subbuttons:hover {
+	text-decoration: underline;
+   text-decoration-style: dashed;
+   text-decoration-thickness: 1px;
+   text-underline-offset: 3px;
+}
+
+.start-free-wrapper.on-page {
+	margin: 1rem;	
+
+}
+.start-free-wrapper.on-page .start-free-form button{
+	background-color: #ff7d00;
+	color: white;
+} 
+.start-free-wrapper.on-page .start-free-form button:hover{
+	background-color: #fdb815;
+	color: #ffffff;
+	/* border: 1px solid #d16700; */
+	box-shadow: 0 0 8px #4e4e4e;
+}	
+
+.gap-controlled { 
+	display: flex;
+	flex-wrap: wrap;
+}
+.sides {
+	display: flex; 
+	justify-content: center; 
+	overflow: hidden; 
+}
+.margined-container {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.logo {
+	font-family: "Comfortaa"; 
+	color: #fdb815; 
+	font-weight: 300; 
+}
+
+/* Color separation used by numbers */
+.bg-orange-2 {
+	/* background: linear-gradient(to bottom,#f55202 0, #ff8c29 50%, #ffc95f 50%, #ffc95f 100%); */
+	color: white;
+	background: linear-gradient(to bottom,#f55202 0, #ff8c29 50% 70%, #ffc95f 100%);
+} 
+
+.bg-light-gray {
+
+}
+
+/*In page, .header was substituted by header tag*/
+.header {
+	/* background: linear-gradient(to bottom,#ff8120 0, #ffc95f 50%, #ffc95f 100%); */
+	background: linear-gradient(to bottom,#ff8c29 0, #fdb815 50%, #fdb815 100%);
+	color: white;
+	position: relative;
+	min-height: 100vh;
+	/* max-height: 900px; */
+	/* width: 100vw; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.header > .wrapper {
+	transform: scale(0, 0);
+	transition: transform .4s ease-out .3s;
+	/* margin: 4rem 0.4rem 0 0.4rem; */
+
+}
+
+.header.show-up > .wrapper{
+	transform: scale(1, 1);
+}
+
+@media screen and (min-width: 800px) {
+
+	.sections-divider svg.big {display: none;}
+	.sections-divider svg.tiny {display: block;}
+
+	.margined-container {
+		width: 60vw;
+		margin: 0 auto;
+	}
+	.bg-orange-2 {
+		background: linear-gradient(to right,#f55202 0, #ff8c29 50%, #ffc95f 50%, #ffc95f 100%);
+	} 
+	.gap-controlled {
+		grid-template-columns: 40vw 40vw;
+		display: grid;
+	}
+
+	/* Works for index header but not for pages, afaik */
+	.header {
+		background-color: #f94327;
+		background-image: linear-gradient(98deg, #f94327 0%, #ff7d14 45%);
+		min-height: auto;
+	}
+	
+	.header .wrapper {
+		max-width: 90vw;
+		width: 90vw;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		margin: 0 auto;
+	}
+
+	.start-free-form .start-free-form-grid{
+		display: grid;	
+	}
+	.start-free-wrapper.on-page {
+		margin: 1rem 0 2rem;	
+	}
+	.start-free-wrapper.on-page .start-free-form {
+		margin: 1rem;	
+	}
+	.start-free-wrapper.on-page .start-free-form button {
+		margin-top: 0 ;
+		padding: 0 1rem
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+	.header .wrapper {max-width: 1080px; }
+
+}
+@media screen and (min-width: 1500px) {
+	.margined-container {
+		margin: 0 auto;
+		max-width: 1300px;
+	}
+}
+@media screen and (min-width: 1800px) {
+
+	.header .wrapper {max-width: 1300px; }
+
+}

@@ -1,0 +1,153 @@
+input.bitso-cal-sel {
+	cursor: pointer;
+	background-color: white;
+	width: 14ch;
+	height: 16px;
+	color: #999;
+}
+
+.bitso-cal-container{
+	position: absolute;
+	grid-template-columns: 1fr 1fr;
+	user-select: none;
+	border: 1px solid #7b7a7a;
+	background-color: #0c0d2b;
+	border-radius: 5px;
+	width: 400px; 
+	z-index: 9; /*Back of the dark container*/
+} 
+
+.bitso-cal-container .left {
+	border-right: 1px solid #333;
+	margin: 2em 0; 
+}
+
+.bitso-cal-container .right {
+	position: relative;
+	margin: 2em 0 ;
+	text-align: center;
+}
+.bitso-cal-container .left-day {
+	font-size: 4em;
+	cursor: pointer;
+}
+.bitso-cal-container .left-today {
+	font-size: 0.8em;
+}
+
+
+.bitso-cal-container .bitso-arrow {
+	color: white;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.bitso-cal-container .bitso-cal-month-name,
+.bitso-cal-container .bitso-cal-dow-list {
+	color: coral;
+}
+
+.bitso-cal-container .last-month, 
+.bitso-cal-container .next-month  {
+	color: #444; 
+}
+
+.bitso-cal-container .bitso-cal-right-bottom{
+	margin: 0.1em 1em;
+}
+.bitso-cal-container .bitso-cal-right-bottom > div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	gap:0;
+	font-size: 0.8em;
+
+}
+.bitso-cal-container .bitso-cal-right-bottom div.bitso-cal-dow-list {
+	border-bottom: 1px solid #333;
+	margin: 3px 0;
+}
+
+.bitso-cal-container .bitso-cal-daylist {
+	line-height: 1.4rem;
+	margin: 0.8rem 0 0 0;
+}
+
+.bitso-cal-container .curr-month {
+	color: #bbb;  
+	cursor: pointer;
+}
+
+.bitso-cal-container .curr-month:hover, 
+.bitso-cal-container .bitso-arrow:hover, 
+.bitso-cal-container .bitso-cal-close:hover {
+	color: coral;
+}
+
+.bitso-cal-container .left:hover {
+	color: #bbb;
+}
+
+.bitso-cal-container .bitso-cal-close {
+	font-family: 'Comfortaa';
+	position: absolute;
+	left: 10px; 
+	top: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+/* Smaller */
+.bitso-cal-container.simple {
+	width: 200px; 
+	grid-template-columns: 1fr;
+}
+.bitso-cal-container.simple .bitso-cal-close{font-size: 1em; }
+.bitso-cal-container.simple .bitso-cal-daylist {
+	line-height: 1rem;
+	margin: 0.8rem 0 0 0;
+}
+
+/* White */
+.bitso-cal-container.white {background-color: #eaeaea; }
+.bitso-cal-container.white .last-month {color: #aaa; }
+.bitso-cal-container.white .curr-month {color: #666; cursor: pointer; }
+.bitso-cal-container.white .arrow {color: #666; }
+
+.bitso-cal-container .clicked {
+	background-color: coral;
+	color: #333;
+	border-radius: 7px;
+}
+
+@media only screen and (max-width: 1100px) {
+	.bitso-cal-container .curr-month:hover, .bitso-cal-container .bitso-arrow:hover, .bitso-cal-container .bitso-cal-close:hover {
+		color: #333;
+	}
+	.bitso-cal-container.simple {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 305px;
+		max-width: 350px;
+		height: 350px;
+		max-height: 88vh;
+		/* width: 80vw; */
+		font-size: 1.7em;
+	}
+	.bitso-cal-container .right {
+		margin: 1em 0 0.3em 0;
+	}
+	.bitso-arrow {
+		font-size: 2.3em;
+	}
+
+	.bitso-cal-container .last-month, .bitso-cal-container .next-month  {
+		color: #444; 
+	}
+	
+	
+	/* .room-card-container {width: 100%;} */
+}

@@ -1,0 +1,131 @@
+/*vars*/
+:root {
+	/*Main Colors*/
+	--text-color: #666;
+	--input-color: #666;
+	--link-color: #111877;
+
+	/*Calendar Borders */
+	--cell-border: #e2e2e2;
+	--room-division-border: #aaa;
+
+	/*Calendar Colors*/
+	--cells-back: #eee;
+	--dates-back: #fff4db;
+	--rooms-back: #fff4db;
+	--today-back: #f3f3f3;
+	--header-today-back: #ffdf96;
+
+	/*Head colors*/
+	/*--header-back: #0c0d2b;*/
+	--header-back: #1e1f26;
+	--menu-buttons: #9c7312;
+	/*--header-back: #0f125a;*/
+
+	--head-separator: #7b7a7a;
+
+	/*Popout Colors*/
+	--popout-back: #ded1b4;
+	--popout-inner-back: #fff6e4;
+	--popout-border: coral;
+
+	/*Messagees Color*/
+	--msg-color: #eee;
+	--msg-true-back: green;
+	--msg-false-back: red;
+
+	/*Palette*/
+	--sand: #fff4db;
+	--bdesk: #fbb920;
+	--sand-high: #ffb719;
+	--salmon: #f79b3d;
+	--brown: #711e00;
+	--lbrown: #e2a15e;
+	--dbrown: #542514;
+	--lgreen: #ecffea;
+	--dgreen: #119a11;
+	--yellow: #edc412;
+	--dred: #820000;
+	--lgray: #fafafa;
+	--mgray: #dddddd;
+	--blue: #09187f;
+	--dgblue: #1d1e22;
+	--dblue: #1e1f26;
+
+	/*Bookings*/
+	--b-unconfirmed: #00aae7;
+	--b-confirmed: #04a304;
+	--c-noshow: #820265;
+	--b-noshow: #c407d0;
+	
+	--c-checkedin: #0419a9;
+	--b-checkedin: #06126b;
+	
+	/*--c-checkedin: green;
+	--b-checkedin: green;*/
+	--c-checkedout: purple;
+	--b-checkedout: purple;
+	--b-blocked: red;
+}
+
+.st-0 {color: #777;}
+.st-1 {color: var(--b-unconfirmed); }
+.st-2 {color: var(--b-confirmed); }
+.st-7 {color: var(--c-noshow); }
+.st-8, .st-5 {color: var(--c-checkedin); }
+.st-9 {color: var(--c-checkedout); }
+
+.bg-st-8, .bg-st-5 {background-color: #e8e8ff;}
+.bg-st-1, .bg-st-2 {background-color: #dcfff7;}
+.bg-st-9 {background-color: #ffddfb;}
+
+.filter-green {filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%); }
+.filter-dgreen {filter: invert(43%) sepia(151%) saturate(1452%) hue-rotate(66deg) brightness(95%) contrast(154%) }
+.filter-azul {filter: invert(53%) sepia(33%) saturate(2913%) hue-rotate(130deg) brightness(97%) contrast(101%); }
+.filter-blue {filter: invert(15%) sepia(30%) saturate(6261%) hue-rotate(229deg) brightness(114%) contrast(106%); }
+.filter-blue:hover {filter: invert(15%) sepia(45%) saturate(6261%) hue-rotate(229deg) brightness(114%) contrast(106%); }
+.filter-dblue {filter: invert(9%) sepia(22%) saturate(1785%) hue-rotate(199deg) brightness(95%) contrast(106%); }
+.filter-dgblue {filter: invert(6%) sepia(5%) saturate(2192%) hue-rotate(190deg) brightness(90%) contrast(85%); }
+.filter-gray {filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(100%) contrast(86%) }
+.filter-gray:hover {filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(118%) contrast(86%) }
+.filter-dgray {filter: invert(16%) sepia(74%) saturate(0%) hue-rotate(-349deg ) brightness(100%) contrast(83%); }
+.filter-dgray:hover {filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(118%) contrast(86%) }
+.filter-666 {	filter: invert(36%) sepia(0%) saturate(1389%) hue-rotate(142deg) brightness(111%) contrast(94%); }
+.filter-yellow {filter: invert(62%) sepia(74%) saturate(1300%) hue-rotate(-349deg) brightness(118%) contrast(86%) }
+.filter-yellow:hover {filter: invert(66%) sepia(74%) saturate(1300%) hue-rotate(-349deg) brightness(130%) contrast(86%) }
+.filter-deskydoo {filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg) brightness(102%) contrast(97%); }
+.filter-brown { filter: invert(12%) sepia(36%) saturate(7350%) hue-rotate(23deg) brightness(94%) contrast(103%); }
+.filter-rose {	filter: invert(27%) sepia(55%) saturate(3833%) hue-rotate(313deg) brightness(95%) contrast(95%); }
+.filter-real-red {filter: invert(12%) sepia(58%) saturate(7499%) hue-rotate(7deg) brightness(83%) contrast(119%);}
+.filter-red {filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%); }
+.filter-slred {filter: invert(86%) sepia(62%) saturate(99%) hue-rotate(326deg) brightness(84%) contrast(105%)}
+.filter-dred {filter: invert(11%) sepia(40%) saturate(6653%) hue-rotate(6deg) brightness(104%) contrast(126%); }
+.filter-fb {filter: invert(36%) sepia(97%) saturate(335%) hue-rotate(179deg ) brightness(91%) contrast(94%); }
+.filter-g {filter: invert(41%) sepia(22%) saturate(6488%) hue-rotate(339deg ) brightness(83%) contrast(89%); }
+.filter-white {filter: brightness(0) invert(1); }
+
+.tred {color: #ac0000; }
+.tcoral {color: coral; }
+.tyellow {color: #bbbb00; }
+.tgreen {color: #32cc00; }
+.tdgreen {color: #218a00;}
+.tlime {color: lime; }
+.tgray {color: #666;}
+.tlgray {color: #999;}
+.tslgray {color: var(--lgray);}
+.tbrown {color: var(--brown)}
+.trose {color: #ec288b}
+.tazul {color: #00c397}
+.tblue {color: #2331af}
+.tdblue {color: var(--header-back)}
+.twhite {color: #fff;}
+.bdgblue {background-color: var(--dgblue)}
+.bred {background-color: #ac0000; }
+.bcoral {background-color: coral; }
+.byellow {background-color: #bbbb00; }
+.bgreen {background-color: #32cc00; }
+.blime {background-color: lime;}
+.bsand {background-color: var(--sand-high)}
+.blgray {background-color: var(--lgray)}
+.bmgray {background-color: var(--mgray)}
+.bwhite {background-color: #fff;}

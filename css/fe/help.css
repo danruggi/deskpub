@@ -1,0 +1,117 @@
+section {
+	position: relative;
+	min-height: auto;
+	cursor: pointer;
+}
+section .help-title-container {
+	position: relative;
+	max-width: 70vw;
+}
+section:not(.active):hover::before {
+	content: "";
+	height: 90%;
+	width: 30px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: grey;
+	border-radius: 2px;
+}
+section:hover h5{
+	font-family: "Roboto Condensed";
+}
+section:hover h5:after{
+	content: ">";
+	font-size: 30px;
+	position: absolute;
+	left: -50px;
+	top: 50%;
+	transform: translateY(-50%);
+} 
+section:hover .help-title{
+	position: relative;
+}
+/* section:hover .help-title:after{
+	content: "";
+	width: 150px;
+	height: 3px;
+	position: absolute;
+	top: 63px;
+	left: 0px;
+	border-radius: 2px;
+} */
+
+
+/* AZUL SECTION */
+section.azul{
+	background-color: #eee;
+}
+section:hover::before {
+	color: var(--azul);
+}
+section.azul:hover{
+	background-color: #f9f9f9;
+	color: #666;
+}
+section.azul:hover h5:after{
+	color: var(--azul);
+}
+section.azul:hover .help-title{
+	color: var(--azul);
+}
+section.azul:hover .help-title:after{
+	background-color: var(--azul);
+}
+
+/* RED SECTION */
+section.red {
+	color: white;
+	background-color: grey;
+}
+section.red:hover {
+	background-color: #f6f6f6;
+	color: #666;
+}
+section.red:hover h5:after{
+	color: var(--red);
+}
+section.red:hover .help-title{
+	color: var(--red);
+}
+section.red:hover .help-title:after{
+	background-color: var(--red);
+}
+
+/* VIDEOS */
+video.help-video {
+	width: 50vw;
+	margin-right: 1em;
+}
+video.help-video.full-view {
+	width: 90vw;
+	margin: 1em auto;
+	max-height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+	section:hover .help-title:after {
+		top: 47px;
+		width: 105px;
+
+	}
+	section:hover h5:after{
+		left: -20px;
+		top: 36px;
+	}
+	section:not(.active):hover::before {
+		width: 0;
+	}
+	video.help-video {
+		margin: 0 auto;
+		margin-right: auto;
+	}
+	video.help-video.full-view {
+		width: 100%;
+		height: 100%;
+	}
+}

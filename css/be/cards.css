@@ -1,0 +1,106 @@
+.user-card {
+/*	min-width: 200px;
+	margin: .3em;
+	border: 2px solid;*/
+	text-align: center;
+/*	background-color: var(--sand);	
+	border: 1px solid var(--sand-high);*/
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: default;
+
+}
+
+/*Special Elements*/
+.small-card { padding: 0.2em; border: 1px solid; border-radius: 3px; }
+
+/*Extend Small Card*/
+.small-card.sand {
+	background-color: #f9e5ba;
+	color: #674d00;
+	border-color: #ffb733;
+}
+
+/*Extend Small Card*/
+.small-card.lightsand {
+	background-color: #fffcf5;
+	color: #756a4a;
+	border-color: #e9ce9c;
+}
+
+.small-card.light {
+	background-color: #ddd;
+	/*color: #674d00;*/
+	border-color: #ccc;
+}
+
+.small-card.white {
+	background-color: #fff;
+	/*color: #674d00;*/
+	border-color: #ccc;
+}
+
+.small-card.dark {
+	background-color: #333;
+	color: lime;
+	border-color: lime;
+}
+.small-card.shadow {
+	box-shadow: 0 0 25px #666;
+}
+.small-card.smallshadow {
+	box-shadow: 0 0 5px #666;
+}
+.small-card.no-padding {
+	padding: 0;
+}
+.icon-card, .hint-father {
+	align-items: baseline;
+	cursor: pointer;
+	position: relative;
+}
+.icon-card .hint, .hint-father .hint {
+	display: none;
+	white-space: nowrap;
+	position: absolute;
+	top: -25px;
+	left: -5px;
+	padding: 3px;
+	background-color: #ccc;
+	border-radius: 5px;
+	z-index: 30;
+}
+
+
+/*Hover Filters*/
+.icon-card:hover .hint, .hint-father:hover .hint {
+	display: block;
+}
+
+/*.icon-card.hdgreen:hover span{
+	background-color: var(--dgreen)
+} */
+.icon-card.hdgreen:hover img {
+	filter: invert(43%) sepia(151%) saturate(1452%) hue-rotate(66deg) brightness(95%) contrast(154%)
+} 
+/*.icon-card.hyellow:hover span {
+	background-color: var(--yellow);
+}*/
+.icon-card.hdyellow:hover img {
+	filter: invert(80%) sepia(37%) saturate(6558%) hue-rotate(22deg) brightness(101%) contrast(101%);
+}
+
+/*.icon-card.hdred:hover  span{
+	background-color: var(--dred);
+}*/
+.icon-card.hdred:hover img {
+	filter: invert(11%) sepia(40%) saturate(6653%) hue-rotate(6deg) brightness(104%) contrast(126%);
+}
+
+
+/*.icon-card.hdblue:hover span {
+	background-color: var(--dblue);
+}*/
+.icon-card.hdblue:hover img {
+	filter: invert(9%) sepia(22%) saturate(1785%) hue-rotate(199deg) brightness(95%) contrast(106%);
+}
