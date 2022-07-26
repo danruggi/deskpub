@@ -60,7 +60,8 @@ ul.pricing > li {
 	line-height: .9rem;
 }
 ul.pricing > li::before {
-	content: url("/fe/assets/icons/correct2.svg");
+	content: url("https://cdn.jsdelivr.net/gh/danruggi/deskypub/assets/fe/icons/correct2.svg");
+	/*content: url("/fe/assets/icons/correct2.svg");*/
 	filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg) brightness(102%) contrast(97%);
 	position: absolute;
 	/* display: inline-block; */
