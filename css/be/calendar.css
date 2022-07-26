@@ -159,7 +159,7 @@ div.bigview .dow {font-size: 0.9em; font-style: italic; }
 #calendar_grid_container table td.clean-1::after, 
 #calendar_grid_container table td.clean-5::after {
 	content: "";
-	background-image: url('/assets/icons/broom-2.svg');
+	background-image: url('/assets/be/icons/broom-2.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -324,7 +324,7 @@ ul.selectable-menu li:not(.pad) {
 
 ul.selectable-menu li:not(.pad)::before {
 	content: " ";
-	background-image: url(/assets/icons/arrow1.svg);
+	background-image: url(/assets/be/icons/arrow1.svg);
 	background-size: 0.6em 0.6em;
 	filter: invert(5%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	height: 0.6em;
@@ -374,7 +374,7 @@ ul.results-query-customers li {
 
 ul.results-query-customers li:before {
 	content: " ";
-	background-image: url(/assets/icons/user-solid.svg);
+	background-image: url(/assets/be/icons/user-solid.svg);
 	background-size: 1em 1em;
 	filter: invert(5%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	height: 1em;

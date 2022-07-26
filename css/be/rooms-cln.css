@@ -30,7 +30,7 @@
 	content: " ";
 	width: 20px;
 	height: 20px;
-	background-image: url('/assets/icons/broom.svg');
+	background-image: url('/assets/be/icons/broom.svg');
 	background-size: contain;
 	filter: brightness(0) invert(1);
 	position: absolute;

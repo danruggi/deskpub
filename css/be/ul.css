@@ -12,7 +12,7 @@ ul.arrow {
 
 ul.arrow li:not(.header)::before {
 	content: " ";
-	background-image: url(/assets/icons/arrow1.svg);
+	background-image: url(/assets/be/icons/arrow1.svg);
 	background-size: 0.6em 0.6em;
 	filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	height: 0.6em;
@@ -63,7 +63,7 @@ ul.boxlist.gray li:not(.header){
 
 ul.boxlist li:not(.header):not(.noarrow)::before {
 	content: " ";
-	background-image: url(/assets/icons/arrow1.svg);
+	background-image: url(/assets/be/icons/arrow1.svg);
 	background-size: 0.6em 0.6em;
 	filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	height: 0.6em;
@@ -118,7 +118,7 @@ ul.reports li > * {
 
 ul.reports li:not(.header):not(.noarrow)::before {
 	content: " ";
-	background-image: url(/assets/icons/arrow1.svg);
+	background-image: url(/assets/be/icons/arrow1.svg);
 	background-size: 0.6em 0.6em;
 	filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	height: 0.6em;
@@ -144,7 +144,7 @@ ul.checklist li.valid {
 }
 ul.checklist li:not(.header)::before {
 	content: " ";
-	background-image: url(/assets/icons/times-solid.svg);
+	background-image: url(/assets/be/icons/times-solid.svg);
 	background-size: 1em 1em;
 	filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	height: 1em;
@@ -156,13 +156,13 @@ ul.checklist li:not(.header)::before {
 
 ul.checklist li.error::before {
 	content: " ";
-	background-image: url(/assets/icons/times-solid.svg);
+	background-image: url(/assets/be/icons/times-solid.svg);
 	filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 }
 
 ul.checklist li.valid::before {
 	content: " ";
-	background-image: url(/assets/icons/check-solid.svg);
+	background-image: url(/assets/be/icons/check-solid.svg);
 	filter: invert(40%) sepia(100%) saturate(1000%) hue-rotate(87deg) brightness(107%) contrast(114%);
 }
 

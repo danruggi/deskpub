@@ -92,7 +92,7 @@ input:disabled {
 }
 
 input.find {
-  background: url('/assets/icons/search.svg') no-repeat scroll 7px 7px;
+  background: url('/assets/be/icons/search.svg') no-repeat scroll 7px 7px;
   padding-left:30px;
   background-size: 16px;
   text-align: left;
@@ -119,7 +119,7 @@ input.modern.error, select.modern.error {
 }
 
 input.calendar {
-  background-image: url('/assets/icons/calendar.svg');
+  background-image: url('/assets/be/icons/calendar.svg');
   background-repeat:  no-repeat ;
   background-position:  7px 5px;
   background-size: 18px 16px;

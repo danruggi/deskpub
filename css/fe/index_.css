@@ -299,7 +299,7 @@ body {
 }
 
 .answered-question ul.answers li::before {
-	content: url('/assets/icons/search.svg');
+	content: url('/assets/be/icons/search.svg');
 	position: absolute;
 	filter: invert(62%) sepia(74%) saturate(0%) hue-rotate(-349deg) brightness(100%) contrast(86%);
 	/* top: 50%; */
