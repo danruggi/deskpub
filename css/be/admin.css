@@ -90,3 +90,12 @@
 #message_session_list ul.live-update li.state-0 {
 	color: #cfcfcf;
 }
+
+
+.app-mode-selector .small-card, 
+.auth-mode-selector .small-card {
+	font-size: .85rem;
+	padding: .3rem .6rem;
+	border-radius: 6px;
+	box-shadow: 0 0 13px 6px #999;
+}

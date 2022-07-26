@@ -17,7 +17,8 @@ ul.func-list > li {
 }
 
 ul.func-list > li::before {
-	content: url("/assets/icons/check-solid.svg");
+	/*content: url("/assets/icons/check-solid.svg");*/
+	content: url("https://cdn.jsdelivr.net/gh/danruggi/deskypub/assets/be/icons/check-solid.svg");
 	filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 	position: absolute;
 	/* display: inline-block; */
