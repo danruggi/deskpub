@@ -146,8 +146,8 @@ body {
 	/* left: -30px; */
 	width: 14px;
 	height: 14px;
-
 }
+
 .answered-question ul.answers li:hover {
 	background-color: #eee;
 }
