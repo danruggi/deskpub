@@ -105,13 +105,13 @@
 	right: 4px;
 }
 #help_messages_container .messages-container ul.live-update li.mine.sent:after {
-	background-image: url(/assets/be/icons/msg-sent.svg);
+	background-image: url(../../assets/be/icons/msg-sent.svg);
 }
 #help_messages_container .messages-container ul.live-update li.mine.received:after {
-	background-image: url(/assets/be/icons/msg-received.svg);
+	background-image: url(../../assets/be/icons/msg-received.svg);
 }
 #help_messages_container .messages-container ul.live-update li.mine.read:after {
-	background-image: url(/assets/be/icons/msg-received.svg);
+	background-image: url(../../assets/be/icons/msg-received.svg);
 	filter: invert(15%) sepia(30%) saturate(6261%) hue-rotate(229deg) brightness(114%) contrast(106%); 
 }
 #help_messages_container .messages-container ul.live-update li.other {

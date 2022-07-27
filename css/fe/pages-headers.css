@@ -72,7 +72,7 @@ header.middle-write.crm {
 }
 header.middle-write.crm .bg-image {
 	height: 80%;
-	background-image: url('/fe/assets/images/crm_header_1.webp'), linear-gradient(98deg, #f94327 0%, #ff7d14 45%);
+	background-image: url('../../assets/fe/images/crm_header_1.webp'), linear-gradient(98deg, #f94327 0%, #ff7d14 45%);
 }
 
 header.middle-write .title-wrapper {

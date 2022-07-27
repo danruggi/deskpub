@@ -17,7 +17,7 @@ ul.func-list > li {
 }
 
 ul.func-list > li::before {
-	content: url("/assets/be/icons/check-solid.svg");
+	content: url("../../assets/be/icons/check-solid.svg");
 	/*content: url("https://cdn.jsdelivr.net/gh/danruggi/deskypub/assets/be/icons/check-solid.svg");*/
 	filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 	position: absolute;
@@ -61,7 +61,7 @@ ul.pricing > li {
 }
 ul.pricing > li::before {
 	/*content: url("https://cdn.jsdelivr.net/gh/danruggi/deskypub/assets/fe/icons/correct2.svg");*/
-	content: url("/assets/fe/icons/correct2.svg");
+	content: url("../../assets/fe/icons/correct2.svg");
 	filter: invert(88%) sepia(27%) saturate(4402%) hue-rotate(341deg) brightness(102%) contrast(97%);
 	position: absolute;
 	/* display: inline-block; */
