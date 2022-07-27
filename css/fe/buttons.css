@@ -18,10 +18,10 @@ a.button.white {
 }
 
 a.button.orange {
-	background-color: #fdb815;
+	background-color: #ff7d00;
 }
 a.button.orange:hover {
-	background-color: #ff7d00;
+	background-color: #fdb815;
 }
 a.button.green {
 	background-color: #fdb815;
