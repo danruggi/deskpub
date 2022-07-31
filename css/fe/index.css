@@ -375,6 +375,7 @@ section#numbers {
 	border: 1px solid #aaa;
 	border-radius: .3rem;
 	width: 90%;
+	min-width: 250px;
 	margin: 1rem auto;
 	transition: all .2s ease-in-out;
 	/* margin: 1rem; */
@@ -516,16 +517,18 @@ section#numbers {
 	/* Gap Controlled Animation */
 	
 	.gap-controlled {
-		column-gap: 120vw; 
+		column-gap: 10vw; 
+		transform: translateY(50px);
+		opacity: 0;
 		grid-template-columns: 40vw 40vw; 
 		transition: all 0.4s; 
 	}
 	.gap-controlled.in-view {
-		animation: 0.7s firstViewChangeGrid cubic-bezier(.86,0,.07,1) both; 
+		animation: .9s firstViewChangeGrid ease-out both; 
 	}
 	@keyframes firstViewChangeGrid { 
-		0% {column-gap: 120vw; } 
-		100% {column-gap: 0; } 
+		0% {column-gap: 6vw; opacity: 0; transform: translateY(50px);} 
+		100% {column-gap: 0; opacity: 1; transform: translateY(0);} 
 	}
 
 	/* FUNCS TABLE */
@@ -600,16 +603,17 @@ section#numbers {
 	#pricing .price-card-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		column-gap: 120vw;
+		column-gap: 10vw;
 		row-gap: 2rem;
+		opacity: 0;
 	}
 	
 	.price-card-container.in-view {
 		animation: 0.7s priceGridChanger cubic-bezier(.86,0,.07,1) both; 
 	}
 	@keyframes priceGridChanger { 
-		0% {column-gap: 120vw; } 
-		100% {column-gap: 2rem;} 
+		0% {column-gap: 10vw; opacity: 0; } 
+		100% {column-gap: 2rem; opacity: 1;} 
 	}
 
 	#pricing .price-card {
