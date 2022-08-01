@@ -75,8 +75,8 @@ body {
 }
 
 .start-free-form button {
-	background-color: #ffdd8c;
-	color: #512b00;
+	background-color: #ff9028;
+	color: white;
 	border-color: #e97900;
 	cursor: pointer;
 	border-width: 1px;
@@ -90,8 +90,8 @@ body {
 }
 
 .start-free-form button:hover{
-	background-color: #ff9028;
-	color: white;
+	background-color: #ffdd8c;
+	color: #512b00;
 	border-color: #888;
 	border: 1px solid #8b1700;
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #810000;
@@ -99,16 +99,16 @@ body {
 }
 .start-free-wrapper .subbuttons {
 	margin-top: 0.4rem;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	justify-content: center;
 	width: 80%;
-	margin: 0 auto;
+	margin: 1.3rem auto;
 }
 .start-free-wrapper .subbuttons:hover {
 	text-decoration: underline;
-   text-decoration-style: dashed;
-   text-decoration-thickness: 1px;
-   text-underline-offset: 3px;
+	text-decoration-style: dashed;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 3px;
 }
 
 .start-free-wrapper.on-page {
@@ -227,6 +227,10 @@ body {
 	.start-free-wrapper.on-page .start-free-form button {
 		margin-top: 0 ;
 		padding: 0 1rem
+	}
+	.start-free-wrapper .subbuttons {
+		font-size: 1.4rem;
+		margin: 0 auto;
 	}
 
 }
