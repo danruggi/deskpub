@@ -419,19 +419,4 @@ ul.results-query-customers li:hover {
 	}
 
 }
-
-
-@media only screen and (min-width: 2200px) {
-	#calendar_grid_container table th div.smallview .day {
-		font-size: 2em;
-	}
-	#calendar_grid_container table th div.smallview .month {
-		font-size: 1.2em;
-	}
-	#calendar_grid_container table th div.smallview .dow {
-		font-size: 1em;
-	}
-	#calendar_grid_container table {
-		font-size: 1.1em;
-	}
-}		
+	

@@ -1,6 +1,6 @@
 html, body {
 	height: 100%;
-	background-color: #eee;
+	background-color: #fafafa;
 }
 
 .full-container {
@@ -40,6 +40,7 @@ form a:hover {
 
 .box {
 	text-align: center;
+	margin: 50px 0;
 	height: 100%;
 	background-color: #ddd;
 	border: 1px solid #aaa;

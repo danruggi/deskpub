@@ -10,7 +10,7 @@ nav {
     background-color: white;
 }
 
-#main_navbar {box-shadow: 0 3px #555; }
+#main_navbar {box-shadow: 0 3px 10px #aaa; }
 
 /* Control on Mobile */
 nav#control_navbar {display: none; }
