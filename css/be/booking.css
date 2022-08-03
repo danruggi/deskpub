@@ -56,18 +56,18 @@ div#details span{
 	transform: translateX(-50%);
 }
 
-.det-col button.old_style {
+/*.det-col button.old_style {
 	width: 10em;
 	font-size: .7em;
 }
-
+*/
 /*Extending styled class*/
-.det-col button.styled {
+/*.det-col button.styled {
 	width: 6em;
 	line-height: 1.3em;
 	color: white;
 }
-
+*/
 .det-col .highlighted:hover {
 	background-color: #f4f4f4; 
 }
