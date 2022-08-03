@@ -165,11 +165,11 @@ div.bigview .dow {font-size: 0.9em; font-style: italic; }
 	background-position: center;
 	/*filter: invert(100%) sepia(41%) saturate(0%) hue-rotate(326deg) brightness(101%) contrast(101%);*/
 	/*filter: brightness(0) invert(1); */
-	width: 16px;
-	height: 16px;
+	width: 12px;
+	height: 12px;
 	position: absolute;
-	right: -1px;
-	bottom:  -1px;
+	right: 0px;
+	bottom:  2px;
 	transform: rotate(-45deg);
 }
 #calendar_grid_container table td.clean-0::after {filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%); }
