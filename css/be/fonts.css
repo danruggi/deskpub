@@ -8,14 +8,9 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans:wght@100&family=New+Tegomin&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-.color-white {
-	color:white;
-}
+.bold {font-weight: bold; }
 
-.bold {
-	font-weight: bold;
-}
-
-.tegomin {
-	font-family: 'New Tegomin';
-}
+.font-tegomin {font-family: 'New Tegomin'; }
+.font-comf {font-family: 'Comfortaa', cursive;}
+.font-robocond {font-family: 'Roboto Condensed', sans-serif;}
+.font-jose {font-family: 'Josefin Sans', sans-serif;}

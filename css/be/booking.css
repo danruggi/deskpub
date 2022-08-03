@@ -68,6 +68,10 @@ div#details span{
 	color: white;
 }
 */
+.live-balance {
+	font-size: 1.6rem;
+}
+
 .det-col .highlighted:hover {
 	background-color: #f4f4f4; 
 }
