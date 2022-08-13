@@ -293,7 +293,7 @@ section#numbers {
 	grid-template-columns: 1fr 1fr;
 }
 #func_cards .funcs-table p{
-	transition: 0s transform;
+	transition: 0s transform, 0s background-color;
 	transform: rotateX(-90deg);
 	/* opacity: 0; */
 	transform-origin: top left;
@@ -301,6 +301,7 @@ section#numbers {
 #func_cards .funcs-table p.in-view  {
 	transition: .4s transform ease-out;
 	transform: rotateX(0deg);
+	color: #333;
 	/* opacity: 1; */
 }
 
@@ -312,7 +313,8 @@ section#numbers {
 	/* margin-bottom: 0.3rem; */
 	margin: 0.3rem 0;
 }
-.funcs-table > div {
+
+.funcs-table > a {
 	justify-content: flex-start;
 	margin: 0 0 auto 0;
 	font-size: 16px;
@@ -320,6 +322,14 @@ section#numbers {
 .funcs-table img {
 	width: 32px;
 	height: 32px;
+}
+.funcs-table > a:hover h2 {
+	text-decoration: 1px underline wavy #333;
+}
+#func_cards .funcs-table > a:hover {
+	background-color: #fdffe4;
+	box-shadow: 0 0 20px 20px #fdffe4;
+	transition: 1s background-color, 1s box-shadow;
 }
 
 /* SOFTWARE SCREEN COMPOSITION */
@@ -516,7 +526,7 @@ section#numbers {
 	}
 	/* Gap Controlled Animation */
 	
-	.gap-controlled {
+	/*.gap-controlled {
 		column-gap: 10vw; 
 		transform: translateY(50px);
 		opacity: 0;
@@ -529,7 +539,7 @@ section#numbers {
 	@keyframes firstViewChangeGrid { 
 		0% {column-gap: 6vw; opacity: 0; transform: translateY(50px);} 
 		100% {column-gap: 0; opacity: 1; transform: translateY(0);} 
-	}
+	}*/
 
 	/* FUNCS TABLE */
 	#func_cards .funcs-wrapper {

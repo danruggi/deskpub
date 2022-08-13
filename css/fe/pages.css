@@ -97,18 +97,18 @@ section  .actions-wrapper.mode-0 .button-wrapper a.button1{
 	section .img-wrapper.left img {
 		margin: 2rem 0 2rem auto;
 	}
-	section .sides .gap-controlled.inview-animation {
-		column-gap: 100vw;
+	/*section .sides .gap-controlled.inview-animation {
+		column-gap: 10vw;
+		transform: translateY(50px);
+		opacity: 0;
 	}
 	section .sides .gap-controlled.inview-animation.in-view {
-		animation: .7s firstViewChangeGrid cubic-bezier(.86,0,.07,1) forwards; 
-		 /*animation: .7s firstViewChangeGrid ease forwards;  */
+		animation: .7s firstView ChangeGrid cubic-bezier(.86,0,.07,1) forwards; 
 	}
 	@keyframes firstViewChangeGrid { 
-		0% { column-gap: 100vw; } 
-		/*50% { column-gap: 3.5rem; }*/
-		100% { column-gap: 3rem; } 
-	}
+		0% {column-gap: 6vw; opacity: 0; transform: translateY(50px);} 
+		100% {column-gap: 0; opacity: 1; transform: translateY(0);} 
+	}*/
 	section .gap-controlled.inview-animation.in-view .img-wrapper img {animation: none;}
 	
 	section .text-wrapper {

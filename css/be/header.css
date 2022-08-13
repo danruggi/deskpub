@@ -21,7 +21,7 @@ header a.header-menu-button {
 	/* color: var(--text-color); */
 	/* background-color: #ccc; */
 	margin: 1px;
-	font-size: 0.7em;
+	font-size: 0.7rem;
 	border-radius: 3px;
 	text-transform: uppercase;
 	padding: 0 0.5em;

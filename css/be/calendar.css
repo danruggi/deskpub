@@ -391,7 +391,49 @@ ul.results-query-customers li:hover {
 	color: coral;
 }
 
-
+#popup_calendar_help_video {
+	border: none;
+	background-color: #000;
+    box-shadow: 0 0 20px 0px #000;
+}
+#popup_calendar_help_video h1 {
+	transform: translate(-50%, -17rem);
+	font-family: 'New Tegomin';
+	color: coral;
+	font-size: 3rem;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 80vw;
+}
+/*#popup_calendar_help_video {
+	background-color: whitesmoke;
+	border-radius: 5px;
+}*/
+#popup_calendar_help_video .bottom-container {
+	overflow-y: unset;
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+	transform: translateY(0);
+}
+#popup_calendar_help_video .close-icon{
+	left: -50px;
+	top: -50px;
+	background-color: #000000d1;
+    border-radius: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#popup_calendar_help_video .close-icon img{
+	width: 50px;
+	height: 50px;
+	filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+#popup_calendar_help_video .popup_inner {
+	margin: 0;
+}
 
 @media only screen and (max-width: 1100px) {
 	#calendar_grid_container table th div.smallview .day {

@@ -40,7 +40,7 @@ ul {
 
 
 /* Visibility */
-.hidden {display: none;}
+.hidden {display: none !important;}
 .unvisible {visibility: hidden;}
 .opaque {opacity: 0;}
 

@@ -4,6 +4,14 @@ body {
 	/* margin-top: 80px; */
 }
 
+body.noscroll {
+	position: fixed;
+	overflow: none;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
 /* PageLoader/ */
 .page-wrapper-loader {
 	position: fixed; 
@@ -75,7 +83,8 @@ body {
 }
 
 .start-free-form button {
-	background-color: #ff9028;
+	/*background-color: #ff9028;*/
+	background-color: #ff7d00;
 	color: white;
 	border-color: #e97900;
 	cursor: pointer;
@@ -97,6 +106,25 @@ body {
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #810000;
 
 }
+.start-free-form  button.loading {
+	position: relative;
+	background-color: #000;
+	color: #111;
+	transition: .5s all;
+}
+.start-free-form button.loading::after {
+	content: "";
+	background-image: url("../../assets/be/logo300_square_d.gif");
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*right: 5px;*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .start-free-wrapper .subbuttons {
 	margin-top: 0.4rem;
 	font-size: 1rem;
@@ -115,10 +143,6 @@ body {
 	margin: 1rem;	
 
 }
-.start-free-wrapper.on-page .start-free-form button{
-	background-color: #ff7d00;
-	color: white;
-} 
 .start-free-wrapper.on-page .start-free-form button:hover{
 	background-color: #fdb815;
 	color: #ffffff;
@@ -182,6 +206,59 @@ body {
 	transform: scale(1, 1);
 }
 
+.dark-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000000bd;
+	z-index: 10;
+}
+
+/*Mobile centered in frontend, with stickbar*/
+.popup-form-code {
+	margin: 0 auto;
+	position: static;
+    z-index: 11;
+    width: 90vw;
+    height: auto;
+    padding: 40px 10px;
+    /*left: 0;*/
+    /*top: 50%;*/
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: auto;
+    color: #000;
+    transform: scaleY(0);
+    box-shadow: 2px 3px 4px -3px #000;
+	animation: .5s popup ease-in-out .2s both;
+
+    /*transform-origin: top center;*/
+    /*transform: translate(5vw, -50%) scale(0);*/
+}
+
+@keyframes popup {
+	0% {transform: scale(0);}
+	80% {transform: scale(1.1);}
+	90% {transform: scale(0.95);}
+	100% {transform: scale(1.0);}
+}
+
+.popup-form-code input {
+	width: 90%;
+	line-height: 2.5rem;
+	font-size: 2rem;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #999;
+
+}
+
 @media screen and (min-width: 800px) {
 
 	.sections-divider svg.big {display: none;}
@@ -194,9 +271,22 @@ body {
 	.bg-orange-2 {
 		background: linear-gradient(to right,#f55202 0, #ff8c29 50%, #ffc95f 50%, #ffc95f 100%);
 	} 
+	
+	/* Gap Controlled Animation on Desktop*/
 	.gap-controlled {
-		grid-template-columns: 40vw 40vw;
 		display: grid;
+		column-gap: 10vw; 
+		transform: translateY(50px);
+		opacity: 0;
+		grid-template-columns: 40vw 40vw; 
+		transition: all 0.4s; 
+	}
+	.gap-controlled.in-view {
+		animation: .9s firstViewChangeGrid ease-out both; 
+	}
+	@keyframes firstViewChangeGrid { 
+		0% {column-gap: 6vw; opacity: 0; transform: translateY(50px);} 
+		100% {column-gap: 0; opacity: 1; transform: translateY(0);} 
 	}
 
 	/* Works for index header but not for pages, afaik */
@@ -228,9 +318,22 @@ body {
 		margin-top: 0 ;
 		padding: 0 1rem
 	}
+
 	.start-free-wrapper .subbuttons {
 		font-size: 1.4rem;
 		margin: 0 auto;
+	}
+	.start-free-form button.loading::after {
+		width: 40px;
+		height: 40px;
+	}
+	.popup-form-code {
+		max-width: 400px;
+	}
+	.popup-form-code input::-webkit-outer-spin-button,
+	.popup-form-code input::-webkit-inner-spin-button {
+	  	-webkit-appearance: none;
+	  	margin: 0;
 	}
 
 }
