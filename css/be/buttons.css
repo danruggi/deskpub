@@ -5,7 +5,7 @@ button.bs {
 	border-style: none;
 	border-radius: .3em;
 	width: 8em;
-   height: auto;
+   	height: auto;
 	padding: 0.3em;
 	line-height: 2em;
 	font-size: 1em;	
@@ -18,7 +18,7 @@ button:hover:enabled {
 	cursor: pointer;
 }
 
-button.bs:hover:enabled {
+button.bs:hover:enabled:not(.loading) {
 	box-shadow: inset 3px -3px 30px #ffb719, 0px 0px 10px #000000;
 	background-color: #ffb719dd;	
 	color: #711e00;
@@ -110,7 +110,7 @@ button.bs.azul {
 	background-color: #19ffd5aa;
 	color: #3941a0;
 }
-button.bs.azul:hover:enabled {
+button.bs.azul:hover:enabled:not(.loading) {
 	box-shadow: inset 3px -3px 30px #19ffea, 0px 0px 10px #008270;
 	background-color: #19ffd5;
 	color: #3941a0;
@@ -155,27 +155,21 @@ button.bs:disabled {
 	color: #888;
 }
 
-/*button.header-menu-button {
-	height: 100%;
-	border-radius: 0;
-	background-color: #1e1f26;
-	border-color: #aaa;
-	color: #c5c5c5;
-	line-height: 1.3em;
-	margin: 0 auto;
-	padding: 0;
-	font-size: 0.7em;
+button.bs.loading {
+	position: relative;
+	background-color: #000;
+	color: #111;
+	transition: .2s all;
 }
-button.header-menu-button > img {
-	filter: invert(94%) sepia(2%) saturate(0%) hue-rotate(137deg) brightness(84%) contrast(94%);
+button.bs.loading::after {
+	content: "";
+	background-image: url("../../assets/be/logo300_square_d.gif");
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*right: 5px;*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
-
-button.header-menu-button:hover:enabled {
-	box-shadow: 0px 0px 2px white;
-}
-
-button.header-menu-button:hover:enabled > img{
-	filter: invert(10%) sepia(56%) saturate(6762%) hue-rotate(32deg) brightness(97%) contrast(102%);
-}
-
-*/

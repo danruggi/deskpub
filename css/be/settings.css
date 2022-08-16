@@ -294,3 +294,60 @@ div.hint {
 .arrow-symbol.left {
 	transform: rotate(180deg);
 }
+
+
+/*Mobile centered in frontend, with stickbar*/
+.popup-form-code {
+	margin: 2rem auto;
+	position: static;
+    z-index: 11;
+    width: 90vw;
+    height: auto;
+    padding: 40px 10px;
+    /*left: 0;*/
+    /*top: 50%;*/
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: auto;
+    color: #000;
+    transform: scaleY(0);
+    box-shadow: 2px 3px 4px -3px #000;
+	animation: .5s popup ease-in-out .2s both;
+
+    /*transform-origin: top center;*/
+    /*transform: translate(5vw, -50%) scale(0);*/
+}
+
+@keyframes popup {
+	0% {transform: scale(0);}
+	80% {transform: scale(1.1);}
+	90% {transform: scale(0.95);}
+	100% {transform: scale(1.0);}
+}
+
+.popup-form-code input {
+	width: 90%;
+	line-height: 2.5rem;
+	font-size: 2rem;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #999;
+
+}
+
+@media screen and (min-width: 800px) {
+
+	.popup-form-code {
+		max-width: 400px;
+	}
+	.popup-form-code input::-webkit-outer-spin-button,
+	.popup-form-code input::-webkit-inner-spin-button {
+	  	-webkit-appearance: none;
+	  	margin: 0;
+	}
+
+}

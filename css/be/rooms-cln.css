@@ -87,8 +87,8 @@
 .checkout-info.cst-tomorrow {color: #ccc; }
 
 
-.room-card-left.cst-8 {background-color: purple;}
-.room-card-left.cst-tomorrow {background-color: #ff75db;}
+/*.room-card-left.cst-8 {background-color: purple;}*/
+.room-card-left.cst-tomorrow {background-color: #061c00;}
 
 /*.room-card-left.cst-8 img {filter: invert(36%) sepia(0%) saturate(1389%) hue-rotate(142deg) brightness(111%) contrast(94%);}*/
 
