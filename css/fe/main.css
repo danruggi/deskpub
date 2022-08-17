@@ -98,7 +98,7 @@ body.noscroll {
 	display: block;
 }
 
-.start-free-form button:hover{
+.start-free-form button:not(.loading):hover{
 	background-color: #ffdd8c;
 	color: #512b00;
 	border-color: #888;
