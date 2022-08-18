@@ -2,3 +2,7 @@
 ---
 	- -*version 1.0.0034 --> 1.0.0035
 Added changelog page in frontend connected to github; All comments in git commits will show up in changelog page page;
+
+---
+	- -*version 1.0.0035 --> 1.0.0036
+Ahrefs report 12 august error corrections; In frontend pages, added a real link to ahrefs with a onclick def, not anymore #_; Added canhonical tag in frontend pages; Resolved most of 404 errors in frontend
