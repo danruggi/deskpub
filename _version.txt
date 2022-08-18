@@ -1,0 +1,4 @@
+
+---
+	- -*version 1.0.0034 --> 1.0.0035
+Added changelog page in frontend connected to github; All comments in git commits will show up in changelog page page;
