@@ -34,3 +34,7 @@ Bugfix in login process, email can be lower or uppercase and it's the same; Remo
 ---
 	- -*version 1.0.0042 --> 1.0.0043
 Added some security incidents to increase login security
+
+---
+	- -*version 1.0.0043 --> 1.0.0044
+Bugfix in login and password verification
