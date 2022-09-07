@@ -180,6 +180,9 @@ div.bigview .dow {font-size: 0.9em; font-style: italic; }
 	background-color: #aaa;
 	cursor: pointer;
 }
+#calendar_grid_container table td.n-add.border-bottom {
+	border-bottom: 2px solid #c11919;
+}
 #calendar_grid_container table td.n-add:hover {
 	background-color: lime;
 }

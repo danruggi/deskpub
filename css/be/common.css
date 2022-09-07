@@ -614,6 +614,19 @@ header #live_update_icon .notif-num {
 }
 header #live_update_icon .notif-num span{
    transform: translate(-1px, 0px);
+}
+
+@media only screen and (max-width: 1100px) {
+	header .logo a{
+		font-size: .8em;
+	}	 
+	header a.header-menu-button {
+		font-size: .6rem;
+	}
+	header .deskycal input {
+		width: 13ch;
+		font-size: .7rem;
+	}
 }/*Message box*/
 #message_box {
 	position: fixed;

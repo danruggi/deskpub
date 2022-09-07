@@ -10,3 +10,7 @@ Ahrefs report 12 august error corrections; In frontend pages, added a real link 
 ---
 	- -*version 1.0.0036 --> 1.0.0037
 Bug fix in housekeeping, mantaineance and reception staff registration; Bug fix in some hrefs;
+
+---
+	- -*version 1.0.0037 --> 1.0.0038
+Beta Test Ended; Updated canonical in index page, as suggested by google search console; Bugfix in verify
