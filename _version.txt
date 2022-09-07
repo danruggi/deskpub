@@ -18,3 +18,7 @@ Beta Test Ended; Updated canonical in index page, as suggested by google search 
 ---
 	- -*version 1.0.0038 --> 1.0.0039
 Beta Test Ended; Updated canonical in index page, as suggested by google search console; Bugfix in verify your email notification bubble in calendar PMS; Changed border color in PMS calendar for better visibility; Added expenses and outgoings to manage properties incomes and earnings;
+
+---
+	- -*version 1.0.0039 --> 1.0.0040
+Removed reload after added expense
