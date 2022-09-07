@@ -26,3 +26,7 @@ Removed reload after added expense
 ---
 	- -*version 1.0.0040 --> 1.0.0041
 Bugfix in hotels,hostels,bnb expenses:; Amount check validity; Description limited in length for security reasons
+
+---
+	- -*version 1.0.0041 --> 1.0.0042
+Bugfix in login process, email can be lower or uppercase and it's the same; Removed reload after deleting hotels, hostels, bnb expenses for usability reasons;
