@@ -22,3 +22,7 @@ Beta Test Ended; Updated canonical in index page, as suggested by google search 
 ---
 	- -*version 1.0.0039 --> 1.0.0040
 Removed reload after added expense
+
+---
+	- -*version 1.0.0040 --> 1.0.0041
+Bugfix in hotels,hostels,bnb expenses:; Amount check validity; Description limited in length for security reasons
