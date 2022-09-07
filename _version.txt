@@ -30,3 +30,7 @@ Bugfix in hotels,hostels,bnb expenses:; Amount check validity; Description limit
 ---
 	- -*version 1.0.0041 --> 1.0.0042
 Bugfix in login process, email can be lower or uppercase and it's the same; Removed reload after deleting hotels, hostels, bnb expenses for usability reasons;
+
+---
+	- -*version 1.0.0042 --> 1.0.0043
+Added some security incidents to increase login security
