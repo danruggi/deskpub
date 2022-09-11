@@ -677,7 +677,7 @@ section#numbers {
 
 
 	#pricing .cards-wrapper {
-		max-width: 1300px;
+		max-width: 1199px;
 	}
 	#pricing .price-card-container {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -694,6 +694,9 @@ section#numbers {
 	}
 	.margined-container {
 		margin: 0 auto;
+		max-width: 1300px;
+	}
+	#pricing .cards-wrapper {
 		max-width: 1300px;
 	}
 }

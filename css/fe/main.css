@@ -206,6 +206,33 @@ body.noscroll {
 	transform: scale(1, 1);
 }
 
+.fe-message {
+	 position: fixed;
+    top: 90px;
+    width: 90%;
+    padding: 1rem 1rem;
+    background-color: #ffff00db;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 5;
+    border-radius: 5px;
+    font-family: 'Dosis';
+}
+.fe-message.hideTop {
+	animation: .9s hideToTop ease-in both; 
+}
+
+@keyframes hideToTop { 
+	0% {transform: translate(-50%, 0) rotate(1deg);} 
+	3% {transform: translate(-50%, 0) rotate(-1deg);} 
+	6% {transform: translate(-50%, 0) rotate(1deg);} 
+	9% {transform: translate(-50%, 0) rotate(-1deg);} 
+	10% {transform: translate(-50%, 0px);} 
+	80% {transform: translate(-50%, 0px);} 
+	90% {transform: translate(-50%, 5px);} 
+	94% {transform: translate(-50%, 0px);} 
+	100% {transform: translate(-50%, -200px);} 
+}
 
 @media screen and (min-width: 800px) {
 
@@ -282,6 +309,12 @@ body.noscroll {
 	.popup-form-code input::-webkit-inner-spin-button {
 	  	-webkit-appearance: none;
 	  	margin: 0;
+	}
+
+	.fe-message {
+		padding: 1rem 5rem;
+		width: auto;
+		top: 115px;
 	}
 
 }

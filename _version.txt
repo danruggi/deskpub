@@ -38,3 +38,7 @@ Added some security incidents to increase login security
 ---
 	- -*version 1.0.0043 --> 1.0.0044
 Bugfix in login and password verification
+
+---
+	- -*version 1.0.0044 --> 1.0.0045
+Added italian language support in index page; Added an array for available language in frontend; Added a language message if language is missing; bugfix in a css file for the index page; Added an animation for hiding message to top; adjust z-index for navbar
