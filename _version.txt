@@ -46,3 +46,7 @@ Added italian language support in index page; Added an array for available langu
 ---
 	- -*version 1.0.0045 --> 1.0.0046
 Added missing language message in all pages;
+
+---
+	- -*version 1.0.0046 --> 1.0.0047
+Added more flexibility in property email addresses during registration and login; Trailing spaces trimmed, email address cleaned
