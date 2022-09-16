@@ -50,3 +50,7 @@ Added missing language message in all pages;
 ---
 	- -*version 1.0.0046 --> 1.0.0047
 Added more flexibility in property email addresses during registration and login; Trailing spaces trimmed, email address cleaned
+
+---
+	- -*version 1.0.0047 --> 1.0.0048
+Bugfix in localdates in dashboard and reports; Now timezone is set up locally on DB at every call;
