@@ -13,15 +13,17 @@ section .grid-container > * {
 }
 
 .guests-and-nights {
-	margin: 0 auto;
-}
-.guests-and-nights.mr2 {
-	margin-right: auto;
+	margin: .5rem auto;
+	margin-right: auto !important;
 }
 
 .notes-icons {
 	margin-right: auto !important;
 	margin: 0 auto;
+}
+img.notes-icon {
+	width: 22px;
+	height: 22px;
 }
 .popup .textarea-note {
 	min-width: 50px;
