@@ -6,7 +6,9 @@ section .grid-container > * {
 .no-mobile {
 	display: none !important;
 }
-
+.user-card {
+	width: 100%;
+}
 .guests-and-nights > .tileviewcontainer {
 	padding: 0.1em 1em;
 	font-size: 0.7em;

@@ -62,3 +62,7 @@ test123
 ---
 	- -*version 1.0.0049 --> 1.0.0050
 Enabled the printing from protable devices; Print invoice available in mobile format
+
+---
+	- -*version 1.0.0050 --> 1.0.0051
+Enabled the printing from protable devices; Print invoice available in mobile format; bug fix in visualization
