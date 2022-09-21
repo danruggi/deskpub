@@ -66,3 +66,7 @@ Enabled the printing from protable devices; Print invoice available in mobile fo
 ---
 	- -*version 1.0.0050 --> 1.0.0051
 Enabled the printing from protable devices; Print invoice available in mobile format; bug fix in visualization
+
+---
+	- -*version 1.0.0051 --> 1.0.0052
+Head update in frontend; Image showup for twitter sharing;
