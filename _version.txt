@@ -70,3 +70,19 @@ Enabled the printing from protable devices; Print invoice available in mobile fo
 ---
 	- -*version 1.0.0051 --> 1.0.0052
 Head update in frontend; Image showup for twitter sharing;
+
+---
+	- -*version 1.0.0052 --> 1.0.0053
+
+
+---
+	- -*version 1.0.0053 --> 1.0.0054
+
+
+---
+	- -*version 1.0.0054 --> 1.0.0055
+customer update
+
+---
+	- -*version 1.0.0055 --> 1.0.0056
+customer update
