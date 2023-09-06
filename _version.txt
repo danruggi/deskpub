@@ -98,3 +98,7 @@ Updated website and software to be free for everyone
 ---
 	- -*version 1.0.0058 --> 1.0.0059
 Updated website and software to be free for everyone
+
+---
+	- -*version 1.0.0059 --> 1.0.0060
+Updated website and software to be free for everyone
