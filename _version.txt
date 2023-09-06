@@ -110,3 +110,7 @@ Updated website and software to be free for everyone
 ---
 	- -*version 1.0.0061 --> 1.0.0062
 Updated website and software to be free for everyone
+
+---
+	- -*version 1.0.0062 --> 1.0.0063
+Added a note for free usage in the home page
