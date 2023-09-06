@@ -86,3 +86,7 @@ customer update
 ---
 	- -*version 1.0.0055 --> 1.0.0056
 customer update
+
+---
+	- -*version 1.0.0056 --> 1.0.0057
+Updated website and software to be free for everyone
