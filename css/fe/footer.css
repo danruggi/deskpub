@@ -31,9 +31,14 @@ footer .footer-organizer > div > * {
 footer .footer-organizer ul {
 	margin-top: 0;
 }
+footer .footer-organizer ul.international_ul span, footer .footer-organizer ul.international_ul a {
+	font-size: 12px;
+}
+
 footer .footer-organizer li a.white:hover {
 	color: #ff9528;
 }
+
 footer .logo img{
 	margin: 0 auto;
 	/* margin: 0; */
@@ -81,3 +86,4 @@ footer .logo img{
 	.grid-container.gap2 {gap: 1em;}
 
 }
+
