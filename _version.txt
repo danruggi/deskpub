@@ -118,3 +118,7 @@ Added a note for free usage in the home page
 ---
 	- -*version 1.0.0063 --> 1.0.0064
 Added informations about free version in home page; Updated the overview page; Added a link for the lessons video
+
+---
+	- -*version 1.0.0064 --> 1.0.0065
+Added sitemap
