@@ -122,3 +122,7 @@ Added informations about free version in home page; Updated the overview page; A
 ---
 	- -*version 1.0.0064 --> 1.0.0065
 Added sitemap
+
+---
+	- -*version 1.0.0065 --> 1.0.0066
+Added robots.txt
