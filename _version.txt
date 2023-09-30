@@ -130,3 +130,7 @@ Added robots.txt
 ---
 	- -*version 1.0.0066 --> 1.0.0067
 translated pages in frontend stage1; changed menu format in frontend
+
+---
+	- -*version 1.0.0067 --> 1.0.0068
+sitemaps and robots
