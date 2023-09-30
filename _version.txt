@@ -126,3 +126,7 @@ Added sitemap
 ---
 	- -*version 1.0.0065 --> 1.0.0066
 Added robots.txt
+
+---
+	- -*version 1.0.0066 --> 1.0.0067
+translated pages in frontend stage1; changed menu format in frontend
