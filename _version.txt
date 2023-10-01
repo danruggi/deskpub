@@ -142,3 +142,7 @@ new server configuration
 ---
 	- -*version 1.0.0069 --> 1.0.0070
 updated server configuration for multilanguage support
+
+---
+	- -*version 1.0.0070 --> 1.0.0071
+changed link structure in page
