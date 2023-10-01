@@ -162,3 +162,7 @@ help page update
 ---
 	- -*version 1.0.0074 --> 1.0.0075
 better caching
+
+---
+	- -*version 1.0.0075 --> 1.0.0076
+bugfix in index page
