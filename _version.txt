@@ -134,3 +134,7 @@ translated pages in frontend stage1; changed menu format in frontend
 ---
 	- -*version 1.0.0067 --> 1.0.0068
 sitemaps and robots
+
+---
+	- -*version 1.0.0068 --> 1.0.0069
+new server configuration
