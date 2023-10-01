@@ -170,3 +170,7 @@ bugfix in index page
 ---
 	- -*version 1.0.0076 --> 1.0.0077
 bugfix in hreflang
+
+---
+	- -*version 1.0.0077 --> 1.0.0078
+bugfix in hreflang
