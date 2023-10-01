@@ -166,3 +166,7 @@ better caching
 ---
 	- -*version 1.0.0075 --> 1.0.0076
 bugfix in index page
+
+---
+	- -*version 1.0.0076 --> 1.0.0077
+bugfix in hreflang
