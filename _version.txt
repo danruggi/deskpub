@@ -174,3 +174,7 @@ bugfix in hreflang
 ---
 	- -*version 1.0.0077 --> 1.0.0078
 bugfix in hreflang
+
+---
+	- -*version 1.0.0078 --> 1.0.0079
+fixes in frontend
