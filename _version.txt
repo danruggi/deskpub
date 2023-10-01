@@ -154,3 +154,7 @@ languages bugfix
 ---
 	- -*version 1.0.0072 --> 1.0.0073
 languages updates
+
+---
+	- -*version 1.0.0073 --> 1.0.0074
+help page update
