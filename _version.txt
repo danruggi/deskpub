@@ -190,3 +190,7 @@ new sitemap
 ---
 	- -*version 1.0.0081 --> 1.0.0082
 404 fixes
+
+---
+	- -*version 1.0.0082 --> 1.0.0083
+fixing page names
