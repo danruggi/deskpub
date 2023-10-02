@@ -186,3 +186,7 @@ missing underscore in rewrite
 ---
 	- -*version 1.0.0080 --> 1.0.0081
 new sitemap
+
+---
+	- -*version 1.0.0081 --> 1.0.0082
+404 fixes
