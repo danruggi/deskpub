@@ -182,3 +182,7 @@ fixes in frontend
 ---
 	- -*version 1.0.0079 --> 1.0.0080
 missing underscore in rewrite
+
+---
+	- -*version 1.0.0080 --> 1.0.0081
+new sitemap
