@@ -194,3 +194,7 @@ new sitemap
 ---
 	- -*version 1.0.0082 --> 1.0.0083
 fixing page names
+
+---
+	- -*version 1.0.0083 --> 1.0.0084
+server config
