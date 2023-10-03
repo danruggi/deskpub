@@ -210,3 +210,7 @@ server config
 ---
 	- -*version 1.0.0086 --> 1.0.0087
 server config
+
+---
+	- -*version 1.0.0087 --> 1.0.0088
+update composer
