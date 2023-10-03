@@ -206,3 +206,7 @@ hreflang translation
 ---
 	- -*version 1.0.0085 --> 1.0.0086
 server config
+
+---
+	- -*version 1.0.0086 --> 1.0.0087
+server config
