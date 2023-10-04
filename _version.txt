@@ -218,3 +218,7 @@ update composer
 ---
 	- -*version 1.0.0088 --> 1.0.0089
 privacy policy
+
+---
+	- -*version 1.0.0089 --> 1.0.0090
+sitemap updated
