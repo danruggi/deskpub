@@ -214,3 +214,7 @@ server config
 ---
 	- -*version 1.0.0087 --> 1.0.0088
 update composer
+
+---
+	- -*version 1.0.0088 --> 1.0.0089
+privacy policy
