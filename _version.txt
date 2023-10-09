@@ -238,3 +238,7 @@ httpd conf bugfix
 ---
 	- -*version 1.0.0093 --> 1.0.0094
 fix fe
+
+---
+	- -*version 1.0.0094 --> 1.0.0095
+sitemap simplification
