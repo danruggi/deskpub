@@ -234,3 +234,7 @@ sitemap update; header update google compliace; video added in home page; colors
 ---
 	- -*version 1.0.0092 --> 1.0.0093
 httpd conf bugfix
+
+---
+	- -*version 1.0.0093 --> 1.0.0094
+fix fe
