@@ -230,3 +230,7 @@ sitemap header update
 ---
 	- -*version 1.0.0091 --> 1.0.0092
 sitemap update; header update google compliace; video added in home page; colors fixed in frontend; rel canonical for every language
+
+---
+	- -*version 1.0.0092 --> 1.0.0093
+httpd conf bugfix
