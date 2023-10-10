@@ -246,3 +246,7 @@ sitemap simplification
 ---
 	- -*version 1.0.0095 --> 1.0.0096
 sitemap simplification
+
+---
+	- -*version 1.0.0096 --> 1.0.0097
+language fix
