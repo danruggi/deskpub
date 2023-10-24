@@ -254,3 +254,7 @@ language fix
 ---
 	- -*version 1.0.0097 --> 1.0.0098
 frontend restyle; new images added; simpler navigation; less but more useful informations
+
+---
+	- -*version 1.0.0098 --> 1.0.0099
+change main title; change some images
