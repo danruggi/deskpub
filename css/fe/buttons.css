@@ -17,6 +17,16 @@ a.button.white {
 	color: #444;
 }
 
+a.button.gray {
+	background-color: white;
+	color: #444;
+}
+a.button.gray:hover {
+	background-color: white;
+	color: #444;
+}
+
+
 a.button.orange {
 	background-color: #ff7d00;
 }

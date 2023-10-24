@@ -54,6 +54,7 @@ nav .inner-nav-2nd-line .logo-wrapper {width: 300px;}
 }
 .social-icons img.fb:hover {filter: invert(36%) sepia(97%) saturate(335%) hue-rotate(179deg ) brightness(91%) contrast(94%) drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5)); }
 .social-icons img.ig:hover {filter: invert(31%) sepia(15%) saturate(5424%) hue-rotate(254deg) brightness(91%) contrast(85%) drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5)); }
+.social-icons img.x:hover {filter: invert(0%) sepia(100%) saturate(604%) hue-rotate(160deg) brightness(0%) contrast(100%) drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5)); }
 .social-icons img.tw:hover {filter:  invert(60%) sepia(98%) saturate(629%) hue-rotate(160deg) brightness(98%) contrast(97%) drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5)); }
 .social-icons img.in:hover {filter: invert(20%) sepia(90%) saturate(2719%) hue-rotate(186deg) brightness(98%) contrast(99%) drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5)); }
 .social-icons img.yt:hover {filter: invert(9%) sepia(98%) saturate(7109%) hue-rotate(3deg) brightness(101%) contrast(111%) drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5)); }
@@ -205,10 +206,11 @@ nav .mobile-menu-container ul li {
 
 	/* Menu items */
 	nav .menu-item {
-		display: block;
+		display: flex;
 		/* position: relative; */
-		padding: 1rem 5rem 1rem 0;
+		margin: 1rem 1.5rem 0;
 	}
+
 	nav .nav-wrapper {
 		/* Container of the 2 lines */
 		grid-template-rows: auto auto;
@@ -225,6 +227,14 @@ nav .mobile-menu-container ul li {
 		font-weight: 100;
 		cursor: pointer;
 	}
+
+	/*	Signup button*/
+	.menu-item.register-button > a {
+		padding: 0.8rem;
+		border: 2px solid;
+		border-color: #ffaa38;
+	}
+
 	/* Change value from first.css */
 	.menu-item:hover > a, .menu-item .submenu ul li:hover a {
 		color: #fdb815;
@@ -234,6 +244,10 @@ nav .mobile-menu-container ul li {
 		text-underline-offset: 3px;
 		/* animation: ;  */
 	}
+	.menu-item.register-button:hover > a {
+		border-color: #fdb815;
+	}
+	
 
 	/* Just for desktops */
 	.menu-item:hover > a > img {
@@ -372,8 +386,8 @@ nav .mobile-menu-container ul li {
 	}
 
 	.menu-item .submenu-card img {
-		width: 1.6rem;
-		height: 1.6rem;
+		width: 2.5rem;
+		height: 2.5rem;
 		filter: invert(78%) sepia(41%) saturate(5893%) hue-rotate(326deg) brightness(101%) contrast(101%);
 	}
 	.menu-item .submenu-card h1 {

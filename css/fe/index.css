@@ -3,9 +3,13 @@ body {
 	background-color: white; 
 	/* margin-top: 80px; */
 }
+.bg-light-blue {background-color: #f6fdff; }
+.bg-dark-blue {background-color: #00000e;}
+.bg-gray {background-color: #f2f2f2;}
+.bg-dgray {background-color: #4f4f4f }
 
 .bg-brown {
-	background-color: #686241;
+	background-color: #393833;
 	color: white;
 }
 .bg-orange-60-40 {
@@ -16,8 +20,6 @@ body {
 	background: linear-gradient(to right, #ffc95f 0%, #ffc95f 60%, #fff 60%, #fff 100%);
 	color: #222;
 }	
-
-.bg-gray {background-color: #f2f2f2;}
 /**** HEADER - PHONES *****/
 
 .header .top-wrapper {
@@ -34,7 +36,14 @@ body {
 	font-weight: 200;
 }
 
+.header button {
 
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	border-color: #555;
+}
 
 .header .video-wrapper {
 	display: none;
@@ -56,6 +65,9 @@ body {
 	/* height: 800px; */
 	margin: 0 auto;
 } 
+
+
+
 /**** END HEADER *****/
 
 /* TITLES */
@@ -288,9 +300,9 @@ section#numbers {
 #func_cards .funcs-table {
 	font-family: "Open Sans";
 	font-weight: 100;
-	gap: 0rem;
-	column-gap: 0.5rem;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 48% 48%;
+	column-gap: 4%;
+	font-size: 13px;
 }
 #func_cards .funcs-table p{
 	transition: 0s transform, 0s background-color;
@@ -306,10 +318,13 @@ section#numbers {
 }
 
 .funcs-table h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	font-family: Dosis;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	/* margin-bottom: 0.3rem; */
 	margin: 0.3rem 0;
 }
@@ -317,19 +332,22 @@ section#numbers {
 .funcs-table > a {
 	justify-content: flex-start;
 	margin: 0 0 auto 0;
-	font-size: 16px;
+	font-size: 1.2em;
 }
 .funcs-table img {
-	width: 32px;
-	height: 32px;
+	width: 100px;
+	height: 100px;
 }
 .funcs-table > a:hover h2 {
-	text-decoration: 1px underline wavy #333;
+	text-decoration: 1px underline wavy red;
+	color: red;
 }
-#func_cards .funcs-table > a:hover {
-	background-color: #fdffe4;
+#func_cards .funcs-table > a:hover p {
+	/*background-color: #fdffe4;
 	box-shadow: 0 0 20px 20px #fdffe4;
-	transition: 1s background-color, 1s box-shadow;
+	transition: 1s background-color, 1s box-shadow;*/
+	text-decoration: underline ;
+	color: #00006c;
 }
 
 /* SOFTWARE SCREEN COMPOSITION */
@@ -339,7 +357,7 @@ section#numbers {
 }
 
 #soft_screens .img-wrapper {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 #soft_screens .img-wrapper img {
@@ -348,10 +366,10 @@ section#numbers {
 	height: auto;
 	transform: translateX(-100vw);
 }
-#soft_screens .text-side {
+#soft_screens .text-side, #pricing .text-side {
 	width: 100%;
 }
-#soft_screens .text-side-wrapper {
+#soft_screens .text-side-wrapper, #pricing .text-side-wrapper {
 	max-width: 90vw;
 	margin: 2rem auto;
 }
@@ -367,10 +385,6 @@ section#numbers {
 }
 
 /* PRICING CARDS */
-#pricing {
-	background-color: #e3eff2;
-	color: #000056;
-}
 #pricing .cards-wrapper {
 	max-width: 90vw;
 	margin: 2rem auto;
@@ -475,16 +489,27 @@ section#numbers {
 #pricing .card-first-part .price-container .unit {font-size: .8rem;}
 #pricing .card-first-part .price-container .sub-price {font-size: .8rem;}
 
+
 @media screen and (min-width: 500px) {
 	#numbers .counter.bigger {
 		bottom: 2rem;
 	}
-
+	#func_cards .funcs-table {
+		gap: 0.5rem;
+		margin: 1rem ;
+		font-size: 14px;
+	}
 }	
 
 @media screen and (min-width: 800px) {
+	#pricing a.button {
+		width: 35%;
+	}
 
-
+	.start-free-form {
+		display: block;
+		margin: 3rem auto 2rem;
+	}
 
 	.header .top-wrapper {
 		text-align: left;
@@ -546,10 +571,11 @@ section#numbers {
 		width: 90vw;
 		max-width: 1300px;
 	}
-	#func_cards  .funcs-table {
+	#func_cards .funcs-table {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		gap: 1rem;
-		column-gap: 2rem;
+		column-gap: 1rem;
+		font-size: 13px;
 	}
 	
 	/***** NUMBERS *****/
@@ -590,7 +616,9 @@ section#numbers {
 
 	/* QNA  */
 	/* Big top margin */
-	#qna > div.margined-container.high-margin {margin: 5rem auto;}
+	#qna > div.margined-container.high-margin, #pricing > div.margined-container.high-margin{
+		margin: 4rem auto;
+	}
 
 	
 	/* SOFT SCREEN */
@@ -598,7 +626,7 @@ section#numbers {
 	#soft_screens .img-wrapper img {
 		width: 100%;
 		height: auto;
-		max-width: 600px;
+		max-width: 520px;
 	}
 	#soft_screens .gap-controlled.in-view .img-wrapper img {
 		transform: none;
@@ -609,6 +637,9 @@ section#numbers {
 		margin: 1rem auto 2rem 0;
 	}
 
+	#pricing {
+		padding-bottom: 1rem;
+	}
 
 	#pricing .price-card-container {
 		display: grid;
@@ -631,6 +662,9 @@ section#numbers {
 	}
 }
 @media screen and (min-width: 1200px) {
+	/*.header {
+		height: 65vh;
+	}*/
 	/* Main Title and Subtitle */
 	.header .buttons-container {
 		display: grid;
@@ -639,6 +673,7 @@ section#numbers {
 
 	.header .top-wrapper h1 {
 		margin: 2rem 0;
+		font-size: 5rem;
 	}
 	.header .img-wrapper {
 		display: none;
@@ -654,8 +689,11 @@ section#numbers {
 	#func_cards .funcs-wrapper {
 		width: 60vw;
 	}
-	#func_cards .funcs-table > div {
-		font-size: 1rem;
+	#func_cards .funcs-table {
+		font-size: 18px;
+	}
+	#func_cards .funcs-table  a {
+		font-size: 1.2em;
 	}
 	#func_cards .funcs-table h2 {
 		margin: 1rem 0;
@@ -673,8 +711,10 @@ section#numbers {
 	#numbers .image-side {width: 40vw; }
 
 	/* SOFT SCREN */
-	#soft_screens .image-side {width: 60vw; }
-
+/*	#soft_screens .image-side {width: 60vw; }*/
+	#soft_screens .img-wrapper img {
+		max-width: 800px;
+	}
 
 	#pricing .cards-wrapper {
 		max-width: 1199px;
@@ -684,7 +724,9 @@ section#numbers {
 	}
 }
 @media screen and (min-width: 1500px) {
-	.header {max-height: 1000px; }
+	.header {
+		max-height: 1000px; 
+	}
 	
 	/* .header video {max-width: 600px;} */
 	/* .header .wrapper {max-width: 88vw; } */
@@ -696,6 +738,7 @@ section#numbers {
 		margin: 0 auto;
 		max-width: 1300px;
 	}
+
 	#pricing .cards-wrapper {
 		max-width: 1300px;
 	}
@@ -716,18 +759,25 @@ section#numbers {
 		right: auto;
 	}
 
-	#soft_screens .gap-controlled {
+	/*#soft_screens .gap-controlled {
 		grid-template-columns: 50vw 50vw;
 	}
-
-	#soft_screens .image-side {width: 50vw; }
+*/
+/*	#soft_screens .image-side {width: 60vw; }*/
 	#soft_screens .img-wrapper {
-		max-width: 650px; 
-	   margin: 1rem 5vw 2rem auto;
+/*		max-width: 1000px; */
+	   margin: 5rem 1rem 5rem auto;
+	}
+	#soft_screens .img-wrapper img {
+		max-width: 2000px;
+		margin-left: 2rem;
 	}
 	#soft_screens .text-side-wrapper {
 		max-width: 650px;
 		margin: 1rem auto 2rem 5vw;
+	}
+	#soft_screens a.button {
+		width: 50%;
 	}
 }
 @media screen and (min-width: 2400px) {

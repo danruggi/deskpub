@@ -37,6 +37,7 @@ ul {
 .grid-container.grid-5col {grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 .grid-container.no-gap {gap: 0; row-gap: 0; column-gap: 0}
 .grid-container.big-gap {gap: 5rem; row-gap: 5rem; column-gap: 5rem}
+.grid-container.start { align-items:start;}
 
 
 /* Visibility */
@@ -53,8 +54,11 @@ ul {
 .pr0 {padding-right: 0 !important;}
 .plr1 {padding: 0 1rem;}
 .m0a {margin: 0 auto;}
+.m1a {margin: 1rem auto;}
 .m0 {margin: 0;}
 .mtb2a {margin: 2rem auto;}
+.mtb4a {margin: 4rem auto;}
+.mtb6a {margin: 6rem auto;}
 .m2 {margin: 2rem;}
 .mb0 {margin-bottom: 0;}
 .mb1 {margin-bottom: 1rem;}

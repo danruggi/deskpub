@@ -22,6 +22,7 @@ body.noscroll {
 	background-color: white; 
 }
 
+
 .page-wrapper-loader h1 {
 	font-size: 3rem;
 }
@@ -45,7 +46,11 @@ body.noscroll {
 /* https://stackoverflow.com/questions/72643350/glitch-in-rendering/72645834#72645834 */
 .sections-divider.complete {margin: -1px;} 
 
-
+.start-free-form {
+/*	display: none;*/
+	margin: 2rem auto;
+	width:80%;
+}
 
 .start-free-form .form-wrapper {
 	flex-wrap: wrap;
@@ -69,6 +74,13 @@ body.noscroll {
 	font-size: .85rem;
 	font-family: "Comfortaa"
 }
+.start-free-form input::placeholder {
+	color: #ccc;
+}
+.start-free-form input.error::placeholder {
+	color: red;
+	font-weight: bold
+}
 .start-free-form input:focus, .start-free-form input:hover  {
 	border-color: #bc8d00;
 	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #000;
@@ -77,9 +89,12 @@ body.noscroll {
 
 }
 .start-free-form input.error {
-	background-color: #fff3a8;
-	font-size: 1.1em;
-	border-color: #aab123;
+/*	background-color: #910000;*/
+/*    color: #ffffff;*/
+	/*background-color: #450000;
+    color: #ffffff;
+    border-color: red;
+    box-shadow: 0 0 5px #000;*/
 }
 
 .start-free-form button {
@@ -99,11 +114,11 @@ body.noscroll {
 }
 
 .start-free-form button:not(.loading):hover{
-	background-color: #ffdd8c;
-	color: #512b00;
-	border-color: #888;
-	border: 1px solid #8b1700;
-	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #810000;
+	background-color: #000;
+	color: #ff6000;
+/*	border-color: #888;*/
+/*	border: 1px solid #8b1700;*/
+/*	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #810000;*/
 
 }
 .start-free-form  button.loading {
@@ -124,6 +139,7 @@ body.noscroll {
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
+
 
 .start-free-wrapper .subbuttons {
 	margin-top: 0.4rem;

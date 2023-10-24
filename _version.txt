@@ -250,3 +250,7 @@ sitemap simplification
 ---
 	- -*version 1.0.0096 --> 1.0.0097
 language fix
+
+---
+	- -*version 1.0.0097 --> 1.0.0098
+frontend restyle; new images added; simpler navigation; less but more useful informations
