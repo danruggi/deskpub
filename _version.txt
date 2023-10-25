@@ -262,3 +262,7 @@ change main title; change some images
 ---
 	- -*version 1.0.0099 --> 1.0.0100
 automated articles test
+
+---
+	- -*version 1.0.0100 --> 1.0.0101
+ws server config update
