@@ -270,3 +270,7 @@ ws server config update
 ---
 	- -*version 1.0.0101 --> 1.0.0102
 articles test
+
+---
+	- -*version 1.0.0102 --> 1.0.0103
+articles test
