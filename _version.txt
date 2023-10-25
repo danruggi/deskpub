@@ -258,3 +258,7 @@ frontend restyle; new images added; simpler navigation; less but more useful inf
 ---
 	- -*version 1.0.0098 --> 1.0.0099
 change main title; change some images
+
+---
+	- -*version 1.0.0099 --> 1.0.0100
+automated articles test
