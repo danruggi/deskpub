@@ -278,3 +278,7 @@ articles test
 ---
 	- -*version 1.0.0103 --> 1.0.0104
 articles test
+
+---
+	- -*version 1.0.0104 --> 1.0.0105
+new sitemap
