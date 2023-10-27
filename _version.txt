@@ -286,3 +286,7 @@ new sitemap
 ---
 	- -*version 1.0.0105 --> 1.0.0106
 new hreflangs
+
+---
+	- -*version 1.0.0106 --> 1.0.0107
+icon size

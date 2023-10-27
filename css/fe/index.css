@@ -336,8 +336,8 @@ section#numbers {
 	font-size: 1.2em;
 }
 .funcs-table img {
-	width: 100px;
-	height: 100px;
+	width: 75px;
+	height: 75px;
 }
 .funcs-table > a:hover h2 {
 	text-decoration: 1px underline wavy red;
