@@ -290,3 +290,7 @@ new hreflangs
 ---
 	- -*version 1.0.0106 --> 1.0.0107
 icon size
+
+---
+	- -*version 1.0.0107 --> 1.0.0108
+recaptcha on contacts; small fixes in the homepage
