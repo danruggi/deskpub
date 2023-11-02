@@ -298,3 +298,7 @@ recaptcha on contacts; small fixes in the homepage
 ---
 	- -*version 1.0.0108 --> 1.0.0109
 canonical link update
+
+---
+	- -*version 1.0.0109 --> 1.0.0110
+graphic update

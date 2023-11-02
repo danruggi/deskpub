@@ -618,7 +618,7 @@ section#numbers {
 	/* QNA  */
 	/* Big top margin */
 	#qna > div.margined-container.high-margin, #pricing > div.margined-container.high-margin{
-		margin: 4rem auto;
+		margin: 8rem auto;
 	}
 
 	
