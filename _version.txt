@@ -302,3 +302,7 @@ canonical link update
 ---
 	- -*version 1.0.0109 --> 1.0.0110
 graphic update
+
+---
+	- -*version 1.0.0110 --> 1.0.0111
+ahref report 2023/10/27, error fixing
