@@ -306,3 +306,7 @@ graphic update
 ---
 	- -*version 1.0.0110 --> 1.0.0111
 ahref report 2023/10/27, error fixing
+
+---
+	- -*version 1.0.0111 --> 1.0.0112
+minor updates; google tags moved
