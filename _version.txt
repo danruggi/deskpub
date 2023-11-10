@@ -326,3 +326,7 @@ update composer
 ---
 	- -*version 1.0.0115 --> 1.0.0116
 update composer
+
+---
+	- -*version 1.0.0116 --> 1.0.0117
+update ss
