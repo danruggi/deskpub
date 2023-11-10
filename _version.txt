@@ -322,3 +322,7 @@ update composer
 ---
 	- -*version 1.0.0114 --> 1.0.0115
 update composer
+
+---
+	- -*version 1.0.0115 --> 1.0.0116
+update composer
