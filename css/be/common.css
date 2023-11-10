@@ -681,13 +681,12 @@ header #live_update_icon .notif-num span{
 .bubble {
 	position: relative;
     font-family: "Sans";
-    font-size: 19px;
-    line-height: 222px;
+    font-size: 17px;
     color: #2a2a2a;
-    width: 170px;
+    width: 158px;
     background: #f3ff38;
     border-radius: 40px;
-    padding: 28px 54px;
+    padding: 20px 54px;
     text-align: center;
     box-shadow: 10px 10px 20px -11px #333;
     cursor: pointer;
@@ -697,12 +696,12 @@ header #live_update_icon .notif-num span{
 
 .bubble .close-this {
 	font-family: "Roboto Condensed";
-	font-size: 9px;
-	color:  #aaa;
-	position: absolute;
-	bottom: 5px;
-	right: 17px;
-	transition: .3s all;
+    font-size: 10px;
+    color: #aaa;
+    position: absolute;
+    bottom: 6px;
+    right: 30px;
+    transition: .3s all;
 }
 .bubble .close-this:hover {
 	color: #666;
