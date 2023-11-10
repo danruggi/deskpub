@@ -310,3 +310,7 @@ ahref report 2023/10/27, error fixing
 ---
 	- -*version 1.0.0111 --> 1.0.0112
 minor updates; google tags moved
+
+---
+	- -*version 1.0.0112 --> 1.0.0113
+update composer
