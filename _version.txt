@@ -338,3 +338,7 @@ update css
 ---
 	- -*version 1.0.0118 --> 1.0.0119
 acme challenge
+
+---
+	- -*version 1.0.0119 --> 1.0.0120
+new conf for nginx
