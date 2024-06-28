@@ -346,3 +346,7 @@ new conf for nginx
 ---
 	- -*version 1.0.0120 --> 1.0.0121
 xyz
+
+---
+	- -*version 1.0.0121 --> 1.0.0122
+update test
