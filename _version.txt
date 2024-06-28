@@ -350,3 +350,7 @@ xyz
 ---
 	- -*version 1.0.0121 --> 1.0.0122
 update test
+
+---
+	- -*version 1.0.0122 --> 1.0.0123
+update test
