@@ -358,3 +358,7 @@ update test
 ---
 	- -*version 1.0.0123 --> 1.0.0124
 updated webserver configuration
+
+---
+	- -*version 1.0.0124 --> 1.0.0125
+Admin section update
